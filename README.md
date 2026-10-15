@@ -2,7 +2,7 @@
 
 Develop a portable instrument with as much useful RF, electromagnetic,
 debugging, sensing and device-firmware access capability as we can integrate
-into a finished folding tablet, cyberdeck or field service-monitor form. A
+into a polished, man-portable field service-monitor form for the first version. A
 secondary focus is interfacing with and managing heterogeneous control systems
 across vendors and generations.
 Camera and basic environmental sensing are desirable tertiary capabilities.

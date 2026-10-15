@@ -55,17 +55,20 @@ fixtures, controlled counterparts or subjects to study without all belonging in
 the final portable assembly. No hardware purchase is selected by the current
 discussion.
 
-Physical direction: a finished folding tablet or polished cyberdeck, with one
-integrated portable core and at most one detachable pocket module. The operator
-also accepts a field-optimized General Dynamics R8000-like service-monitor form:
-a self-contained carried instrument with a working front panel. Compare these
-families without fixing size, mass, input layout or protection rating yet.
-The operator rejects an improvised assembly of exposed boards, loose cables and many external
-modules. Treat fit, finish, coherent controls, connector placement and mechanical
-integration as design requirements. Internal serviceability can remain modular;
-the external product should be resolved as one object with one optional docked
-companion. Exact shape, dimensions, display/input layout and electronics remain
-open.
+Physical direction for the first version is now a polished, man-portable field
+service monitor inspired by the General Dynamics R8000. The operator explicitly
+chooses this over pursuing a thin cyberdeck/folding tablet: useful mass/volume
+are acceptable, and the result should be sleek for its instrument class. Work
+within available prototyping capabilities rather than requiring difficult
+miniaturization or precision folding mechanisms. The earlier form comparisons
+are historical research, not an active requirement to pursue all three forms.
+
+Preserve one integrated core and at most one optional detachable pocket module.
+Treat fit, finish, coherent controls, connector placement, stable working posture,
+carry/transport handling and internal serviceability as design concerns. The
+operator rejects exposed-board/loose-module assemblies. Exact dimensions, mass,
+construction process, controls, electronics and environmental ratings remain
+open; mass acceptance does not establish an unlimited weight budget.
 
 Follow the doctrine's research, design, plan, implementation, and review process.
 Before a firmware experiment, understand the affected flash/storage regions and

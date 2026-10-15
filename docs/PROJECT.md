@@ -117,25 +117,25 @@ system choices. No physical pairing or firmware architecture is selected.
 
 ## Physical direction
 
-The operator can see a folding tablet or a cyberdeck with high production
-values, and also accepts a field-optimized General Dynamics R8000-like
-service-monitor form. The core should be portable, visually coherent and
-reasonably ordinary to carry. One detachable pocket module is acceptable; a collection of exposed
-modules and improvised external cabling is outside the desired form.
+The operator has selected a field-optimized, R8000-inspired service-monitor
+form for the first version. It should be a polished man-portable instrument;
+useful mass and volume are acceptable. Its appearance should be sleek for this
+class of equipment. Thin cyberdeck/folding-tablet integration would introduce
+opposed packaging demands and prototyping questions beyond the available tools;
+those earlier forms are no longer parallel first-version candidates.
 
-This narrows the earlier physical possibilities to an integrated product with
-one optional companion. Internal carriers and serviceable electronics can still
-be modular. Hinges, retention, cable routing, ports, antenna placement, controls,
-materials and finish must be designed together with the electronic layout.
-For the service-monitor option, investigate a self-contained front-panel
-instrument with stable working posture, accessible controls/ports, carrying and
-transport protection, and retained probes/leads. A deeper body could allow
-different power, thermal and electrical partitioning from a tablet. Those are
-design possibilities, not measured advantages or a selected enclosure.
+Preserve one integrated core and at most one optional detachable pocket module.
+Internal carriers and serviceable electronics can be modular. Investigate a
+self-contained front-panel instrument with stable working posture, accessible
+controls/ports, carrying and transport protection, retained probes/leads and
+deliberate power, thermal and electrical partitioning. Materials, finish,
+antenna placement, cable routing and service access belong in the same design.
 
-The exact enclosure, display/keyboard arrangement, size and pocket-module role
-are still discussion questions. The broader stash can support development and
-test subjects without appearing on the outside of the finished instrument.
+Exact body dimensions, acceptable mass, control layout, construction process,
+pocket-module role and electronics remain discussion questions. This is a form
+direction, not an unbounded weight budget or a claim of environmental protection.
+The broader stash can support development and test subjects without all being
+enclosed in the instrument.
 
 ## Exploration sequence
 

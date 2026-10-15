@@ -119,19 +119,19 @@ connector shape alone does not establish RS-232, RS-485, CAN, logic-level serial
 USB data roles or power. Appropriate interface electronics remain a separate
 design question. No current target's protocol or voltage has been inferred.
 
-## Physical forms and what CAD can contribute
+## Service-monitor form and what CAD can contribute
 
-The acceptable families are a finished folding tablet, polished cyberdeck or
-field-optimized General Dynamics R8000-like service monitor, with one integrated
-portable core and at most one detachable pocket module. Visual/mechanical integration is part of the product brief.
-Historical research comparing many probes, packs and nodes remains useful
-reference; it does not define the desired external form.
+The operator has chosen the R8000-inspired field service-monitor form for the
+first version. Useful mass and volume are acceptable in a polished man-portable
+instrument. The result should be sleek for its class and approachable with the
+available prototyping tools. Earlier folding-tablet/cyberdeck comparisons remain
+historical references. Preserve one integrated core and at most one optional
+detachable pocket module.
 
-| Candidate | Character to investigate | Open decisions |
+| Element | Character to investigate | Open decisions |
 | --- | --- | --- |
-| Folding tablet | A compact closed object that opens into a larger working interface | Display arrangement, input method, hinge and supported working positions |
-| Refined clamshell cyberdeck | A deliberate portable instrument with protected controls and well-organized ports | Keyboard versus other controls, thickness, display, grip and working posture |
-| Field service monitor, inspired by R8000 | A carried, self-contained instrument with a screen, physical controls and accessible test ports on a working face | Stable posture with attached cables, handle/stand, transport cover, lead storage, connector protection, mass and power/thermal partitioning |
+| Working face | Screen, physical controls and accessible test ports as one deliberate interface | Viewing angle, tactile capture/adjustment, connector placement and use with attached leads |
+| Carried instrument body | Stable support, carry/transport handling and internal service access | Handle/stand, transport cover, construction process, mass and power/thermal/electrical partitioning |
 | One docked pocket companion | A single useful instrument that separates from the core and has a finished home when carried | Whether Flipper or another design fills this role, retention, power/data and standalone behavior |
 
 The original General Dynamics [R8000A brochure](https://testequipment.center/Product_Documents/General-Dynamics-R8000A-Specifications-02B81.pdf)
@@ -143,7 +143,7 @@ support, protected transport and deliberate probe/antenna storage. The form
 opens different packaging options; actual sensitivity, shielding, cooling,
 runtime and environmental protection still require our own design and tests.
 
-CAD could resolve the hinge, docking bay, structural carriers, service panels,
+CAD could resolve the handle/stand, cover, optional dock, carriers, service panels,
 connector access and deliberate antenna placement as one assembly. Internal
 modularity can support repair while the outside reads as a finished product.
 Target leads still need storage and strain relief designed into the experience.
@@ -220,9 +220,8 @@ configuration, subnet route or remote service was changed in this discussion.
 - Which events need continuous capture, and which tolerate short snapshots?
 - Which operations need local hardware timing, and which can use host messages?
 - What should the core do, and what single standalone role earns the pocket companion?
-- Does a folding tablet or a clamshell arrangement better support the intended work?
-- Would a service-monitor body better support probe-heavy work, physical controls
-  and field setup than the thinner forms, at acceptable carrying size/mass?
+- What service-monitor dimensions, carrying mass, construction and working
+  posture best support the capabilities with available prototyping tools?
 - Which desired behavior calls for custom firmware, and how much of the stack
   would owning it help us change?
 

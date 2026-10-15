@@ -100,3 +100,19 @@ acquisition was needed. The main synthesis concerns complementary measurement
 classes, local timing versus remote analysis, interface/calibration/mechanical
 work and reusable device knowledge. Checked diff whitespace; no code/device
 work, dependency, purchase or build plan was introduced.
+
+## First-version form selected
+
+The operator explicitly chose the service-monitor form for the first version.
+They accept a man-portable instrument with useful mass/volume and want it sleek
+for that class. Pursuing thin cyberdeck/folding-tablet aesthetics would introduce
+opposed demands and mechanical questions the available prototyping tools cannot
+properly resolve. Updated current agent guidance, entry point, project brief
+and possibility map so the earlier alternatives remain historical rather than
+parallel first-version targets.
+
+The integrated core and at most one optional pocket companion remain in force.
+Body size, numerical weight budget, construction, controls, electronics and
+environmental ratings remain open. The decision sets the physical family;
+it does not select a detailed architecture, permit unlimited mass or start
+implementation. Checked diff whitespace; no device, CAD or code work occurred.
