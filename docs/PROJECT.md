@@ -32,9 +32,12 @@ sensor suite has been selected or assumed present in the stash.
 
 The operator also offers old iPhones for integration. Compare reusing a complete
 phone for camera/display/input and network access with dedicated parts, keeping
-the finished core/one-companion requirement. Models, OS versions and battery
-condition are unknown. No generic USB driver support, thermal camera, ambient
-temperature sensor or specific network/app support is inferred.
+the finished core/one-companion requirement. The operator has identified an
+iPhone 11 Pro Max on iOS 17.4.1 and an iPhone 14 Pro Max on iOS 26.6, with
+possible additional phones. Battery condition and actual app/interface behavior
+remain unknown. No generic USB driver support, thermal camera or ambient
+temperature sensor is inferred. Current primary jailbreak documentation is
+recorded in the iPhone research note; no jailbreak experiment is selected.
 
 The operator requested parallel research through the Flipper One open
 development portal and other unusual device projects. Study their actual

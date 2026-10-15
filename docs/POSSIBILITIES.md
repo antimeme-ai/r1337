@@ -165,7 +165,9 @@ Old iPhones are explicitly available as candidate camera/display/input/network
 components. The [iPhone integration note](../papers/2026-10-15-iphone-integration.md)
 records model/OS and accessory limits. Compare a complete-phone mount/dock with
 dedicated display/camera parts; a detachable phone must fit the one-companion
-requirement. Exact model, current software support and battery condition remain
+requirement. Identified phones are an 11 Pro Max on 17.4.1 and a 14 Pro Max on
+26.6. The latter's documented macro camera and LiDAR add inspection/depth options
+to investigate. Battery condition and actual app/accessory behavior remain
 unknown; no general USB instrument-driver or temperature capability is inferred.
 
 Environmental sensing, contact temperature, thermal imaging and internal

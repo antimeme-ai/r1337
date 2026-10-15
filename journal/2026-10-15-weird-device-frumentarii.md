@@ -42,3 +42,21 @@ detritus. Documentation-only changes need no source/device test run.
 No acquired code was executed, built or installed. No device was connected,
 opened, interrogated or flashed, and no remote station, tailnet route, software
 dependency, hardware purchase or final architecture was selected or deployed.
+
+## Identified iPhones
+
+The operator identified an 11 Pro Max on 17.4.1 and a 14 Pro Max on 26.6, and
+may have one or two others. They will look for an older jailbreak candidate.
+Updated inventory/current discussion and the iPhone note. Read Apple exact-model
+specifications and current official Dopamine/palera1n sources. Both phones use
+Lightning; 14 Pro Max adds documented macro photography and LiDAR. The reported
+OS versions pass the current Tailscale minimum-version threshold, without
+establishing installed app/network operation.
+
+A material current finding is that Dopamine's official site and 3.0.11 README
+advertise A12/A13 support for 15.0–18.7.1, including the reported 11 Pro Max
+configuration. The reported A16/26.6 configuration is outside that documented
+range. Neither phone is in palera1n's A8–A11 chip range. Kept advertised support
+separate from results on owned hardware and from generic USB/baseband access.
+No phone operation, app install, jailbreak, exploit or downgrade was performed.
+Checked document diff/whitespace; this is a documentation-only clarification.
