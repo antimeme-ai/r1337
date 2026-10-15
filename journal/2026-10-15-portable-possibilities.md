@@ -136,3 +136,13 @@ cutout, accessory configuration or delivered performance is assumed. No new
 purchase, software dependency or device experiment was selected. Updated
 inventory/possibility documents and checked diff whitespace; no source change
 or source tests accompanied this text-only update.
+
+## Two TI LaunchPads
+
+The operator confirmed two LAUNCHXL-CC1312R1 boards. Updated the inventory and
+possibility map: the pair can serve as controlled radio counterparts without
+requiring another purchase. This is an available experiment arrangement, not a
+selected build or authorization to operate the radios. The next discussion
+should identify concrete desired uses, available host/display hardware and
+comfortable carrying size before comparing integrated designs. Checked diff
+whitespace; no device operations or source changes.
