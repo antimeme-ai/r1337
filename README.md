@@ -13,11 +13,17 @@ recovery research. The unit reports dev firmware 0.81.1 from 2023, hardware code
 12, and working internal/microSD filesystems. No firmware has been built or
 flashed. Language, runtime, dependencies, and replacement boundaries remain open.
 
+**Current focus:** understand the growing equipment collection and discuss
+portable instrument possibilities before further device experiments. New
+research covers ESP32 raw-I/Q SDR, complementary module roles, and physical forms.
+
 ## Start here
 
 - [Project brief and exploration sequence](docs/PROJECT.md)
 - [Device inventory and repeatable collector](docs/DEVICE.md)
 - [First reconnaissance: findings and next experiments](docs/RECONNAISSANCE.md)
+- [Portable instrument possibilities](docs/POSSIBILITIES.md)
+- [Growing hardware inventory](docs/HARDWARE_INVENTORY.md)
 - [Primary sources and open research questions](papers/README.md)
 - [Issue index](ISSUES.md) and [GitHub issues](https://github.com/antimeme-ai/porter_ricks/issues)
 - [Project journal](journal/2026-10-15-bootstrap.md)

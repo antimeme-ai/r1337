@@ -19,6 +19,23 @@ executed and no dependency was adopted. Reports distinguish material actually
 read from sources merely located. Original PDFs are ignored in
 `papers/hardware/`; extracted source and archives are ignored in `quarantine/`.
 
+## Portable instrument discussion
+
+The operator is gathering more equipment and directed that understanding and
+possibility discussion precede further experiments or implementation. Read the
+[growing inventory](../docs/HARDWARE_INVENTORY.md) and
+[possibility map](../docs/POSSIBILITIES.md).
+
+| Research input | Scope | Acquisitions |
+| --- | --- | --- |
+| [ESP32 SDR reconnaissance](2026-10-15-esp32-sdr-reconnaissance.md) | Native I/Q, exact chip differences, capture/export limits, external-radio and transmit distinctions | [Three source snapshots and one measurement PDF](2026-10-15-esp32-sdr-acquisitions.md) |
+| [Radio module possibilities](2026-10-15-radio-module-possibilities.md) | Exact CC1312R1, classic WROVER and conditional Wi-Fi Module V1 roles | Manufacturer sources linked; no new local corpus |
+| [Portable system possibilities](2026-10-15-portable-system-possibilities.md) | Use-driven physical forms, host roles, timing, power, and useful CAD studies | TI LaunchPad hardware PDF and restoration recorded in report |
+
+These reports describe candidate uses and source-supported capabilities. They
+do not establish results on the operator's boards or select an architecture.
+No device operations or source execution accompanied this discussion pass.
+
 ## Two source baselines
 
 - [Modern official firmware reference](https://github.com/flipperdevices/flipperzero-firmware/tree/3fb1d51727733d2007abc5ec636a89328857803e),

@@ -2,7 +2,7 @@
 
 ## Acquisitions as of 2026-10-15
 
-Eight unchanged source archives and their extracted references are retained
+Eleven unchanged source archives and their extracted references are retained
 under ignored `quarantine/`. Exact source URLs, revisions, SHA-256 hashes,
 license locations, studied scope, and restoration commands are recorded in:
 
@@ -12,6 +12,8 @@ license locations, studied scope, and restoration commands are recorded in:
   `quarantine/firmware/`.
 - [Recovery acquisition manifest](papers/2026-10-15-recovery-acquisitions.md):
   qFlipper, Unleashed, Momentum, and flipperzero-rs under `quarantine/recovery/`.
+- [ESP32 SDR acquisition manifest](papers/2026-10-15-esp32-sdr-acquisitions.md):
+  ESPARGOS ESP-SDR, eSpDR, and the Zephyr SDR port under `quarantine/esp32-sdr/`.
 
 These are study snapshots. Only the two explicitly recorded modern firmware
 gitlinks are populated; the other submodules are absent. None is claimed to be
@@ -22,6 +24,11 @@ code was executed and no dependency was adopted.
 Three acquired literature PDFs and the unresolved manual/schematic downloads
 are recorded in the [hardware acquisition manifest](papers/2026-10-15-hardware-acquisitions.md).
 The PDFs live under ignored `papers/hardware/`, separately from source quarantine.
+The later portable discussion added one author SDR measurement PDF under
+`papers/esp32-sdr/` and the TI LaunchPad hardware guide under
+`papers/portable-system/`. Their exact sources, hashes and restoration are in
+the SDR manifest above and the
+[portable system report](papers/2026-10-15-portable-system-possibilities.md).
 
 ## Continuing acquisition
 

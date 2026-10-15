@@ -11,7 +11,9 @@ opening, closing, or materially changing an issue.
 | [#4](https://github.com/antimeme-ai/porter_ricks/issues/4) | Design the first useful custom firmware milestone | Open | #1, #2, #3 |
 
 The [first reconnaissance](docs/RECONNAISSANCE.md) records the current findings
-and next conceptual units. Remaining work starts with the missing manuals and
-schematics, source/layout reconciliation, and a scoped recovery experiment.
+and proposed next conceptual units. Current operator direction puts device
+understanding and [portable possibilities](docs/POSSIBILITIES.md) first while
+the [hardware inventory](docs/HARDWARE_INVENTORY.md) grows. The missing manuals,
+source/layout reconciliation and scoped recovery experiment remain future work.
 CPU2 replacement remains a research question; an owned CPU1 milestone is a
 concrete candidate for #4, not a selected design.

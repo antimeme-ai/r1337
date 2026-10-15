@@ -19,6 +19,13 @@ the device and think through possibilities before further experiments or
 implementation. Additional equipment and ideas will shape this discussion;
 the operator owns a Bus Pirate, with model/revision still to be established.
 
+The operator has since found additional boards and is interested in a new
+portable form factor, CAD possibilities, and recent ESP32 SDR work. The
+[growing inventory](HARDWARE_INVENTORY.md) and
+[possibility map](POSSIBILITIES.md) preserve this expanding scope. The project
+may involve several instruments or independently placed nodes; Flipper firmware
+ownership remains one possible component of that discussion.
+
 Investigate the Flipper as an instrument in a larger set of tools: its own
 capabilities and limits, overlap and complementary roles, useful joint
 experiments, interfaces between instruments, and what custom firmware would

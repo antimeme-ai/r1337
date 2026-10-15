@@ -19,6 +19,11 @@ not yet known. Explore complementary uses and system boundaries together before
 choosing a build or returning to recovery experiments. Custom firmware remains
 an option, not the next predetermined step.
 
+The growing inventory is in `docs/HARDWARE_INVENTORY.md`; discussion candidates
+and the new ESP32 SDR/module/form-factor reports are linked from
+`docs/POSSIBILITIES.md`. These are research inputs, not selected designs or a
+request to connect, flash or enclose the listed equipment.
+
 Follow the doctrine's research, design, plan, implementation, and review process.
 Before a firmware experiment, understand the affected flash/storage regions and
 the recovery path. Record exact source revisions and tool versions for builds.
