@@ -114,3 +114,19 @@ compares the transport, power, timing and mechanical consequences.
 
 The current task remains understanding and discussion. The growing inventory
 can reshape every candidate above.
+
+## Use the stash first
+
+The operator is open to key acquisitions and wants existing equipment put to
+work. Compare candidates against what is already available before extending
+the inventory. For a proposed addition, name the missing capability or
+integration problem, identify existing parts it would enable, and explain why
+another available part is unsuitable. Interface electronics, connectors,
+mechanical parts or power components may unlock more of the stash than another
+general computing board; the actual need remains to be established.
+
+The final portable assembly, detachable instruments, development fixtures and
+subjects under study can all use existing equipment. A coherent instrument
+does not need every useful part inside one enclosure. No hardware shopping
+list or purchase is selected. `SHOPPING_LIST.md` currently tracks inaccessible
+literature, separately from any future component proposal.

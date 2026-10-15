@@ -25,6 +25,15 @@ and the new ESP32 SDR/module/form-factor reports are linked from
 `docs/POSSIBILITIES.md`. These are research inputs, not selected designs or a
 request to connect, flash or enclose the listed equipment.
 
+The operator prefers putting existing equipment to useful work and is open to
+acquiring key components. Start with the stash and actual use cases. Proposed
+hardware purchases should fill a named capability/interface/power/mechanical
+gap or materially improve use of existing equipment; avoid accumulating more
+boards without a concrete role. Existing parts can be instruments, development
+fixtures, controlled counterparts or subjects to study without all belonging in
+the final portable assembly. No hardware purchase is selected by the current
+discussion.
+
 Follow the doctrine's research, design, plan, implementation, and review process.
 Before a firmware experiment, understand the affected flash/storage regions and
 the recovery path. Record exact source revisions and tool versions for builds.

@@ -101,3 +101,13 @@ connected, activated, interrogated, opened or modified.
 Checked the expanded set of 73 relative document links, shared doctrine
 symlink, project-only Git scope and diff whitespace. This increment changes
 documents only; no source tests or hardware experiments were run.
+
+## Acquisition preference
+
+The operator is open to acquiring key components but explicitly prefers putting
+the existing stash into practice over adding more equipment blindly. Recorded
+this in agent guidance, project intent and the possibility map. Hardware
+proposals must identify a useful gap or integration need; existing equipment
+may contribute as final components, detachable instruments, development/test
+fixtures or subjects. No part was selected, ordered or operated. This is a
+text-only preference update; diff whitespace was checked.

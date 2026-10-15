@@ -27,6 +27,13 @@ portable form factor, CAD possibilities, and recent ESP32 SDR work. The
 may involve several instruments or independently placed nodes; Flipper firmware
 ownership remains one possible component of that discussion.
 
+The operator prefers using the existing stash and is open to acquiring key
+components. Let known hardware and desired experiences shape the design.
+Identify a concrete missing capability or integration need before proposing
+another acquisition. A part can earn its role in the portable instrument, on
+the development bench, as a test counterpart, or as a subject to understand.
+Using the stash does not require enclosing every available board.
+
 Investigate the Flipper as an instrument in a larger set of tools: its own
 capabilities and limits, overlap and complementary roles, useful joint
 experiments, interfaces between instruments, and what custom firmware would
