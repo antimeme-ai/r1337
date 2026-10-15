@@ -123,3 +123,16 @@ product direction. Fit/finish, hinges, controls, ports, retained cable paths,
 antenna placement, serviceability and a finished companion dock become inputs
 to the design. No particular dimensions, keyboard/display layout, pocket-module
 electronics or enclosure has been selected. No CAD or device work performed.
+
+## Expected SLogic32U3
+
+The operator backed Sipeed SLogic32U3 and expects a compact logic analyzer in
+the medium term. Recorded it as expected future equipment, separately from
+hardware in hand. Read current vendor introduction/hardware documentation;
+published channel/rate tiers, USB 3.2 Gen2 and compact enclosure suggest an
+independent digital observer alongside BP5 bus control and electrical context.
+Current and older mirrored specifications differ, so no final mechanical
+cutout, accessory configuration or delivered performance is assumed. No new
+purchase, software dependency or device experiment was selected. Updated
+inventory/possibility documents and checked diff whitespace; no source change
+or source tests accompanied this text-only update.

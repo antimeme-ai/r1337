@@ -15,6 +15,7 @@ found by the operator from hardware actually inspected by this project.
 | CC1312R1 LaunchPad | An independent programmable sub-GHz endpoint with its own application processor | Raw packets, demodulated timings and RSSI differ from raw I/Q; fitted RF network matters |
 | Raspberry Pis | Possible local host, analysis, storage and richer display | Model determines connectivity, size, load, cooling and usable interfaces |
 | Bus Pirate 5, working identification | Wired protocol control, buffered IO, voltage/current context and target-power functions | Revision/firmware affect output ratings, capture topology and automation interfaces |
+| SLogic32U3, expected future equipment | Candidate independent digital logic observation alongside BP5-controlled transactions | Backed but not yet delivered; reserve suitable host/probe access provisionally and verify actual hardware later |
 | Nighthawk M6 MR6150 | Candidate independent cellular backhaul, with Wi-Fi/Ethernet/tethering roles | Regional SKU, actual power behavior and available management interfaces remain unverified |
 | Pineapple Mark VII and MK7AC | An independent network computer and dual-band USB packet interface | USB host/device roles, channel allocation, driver compatibility and capture loss matter |
 | Bash Bunny and candidate O.MG Plug | Programmable USB test counterparts for identified laboratory hosts | Exact generation/tier and present configuration remain unknown; these are active devices |

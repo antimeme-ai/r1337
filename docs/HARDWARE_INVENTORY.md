@@ -13,6 +13,7 @@ or connected by this project. Exact variants remain open where indicated.
 | Freenove ESP32-WROVER | Operator found board and ESP32 GPIO extension board | Freenove product/PCB revision, module markings, attached peripherals |
 | Xilo flight controller | Operator found board | Exact model, MCU, sensors, connectors and documentation |
 | Bus Pirate 5, working identification | Found with marking described as “genuine bus 5 5 pirate” | Exact board revision, firmware and probe accessories |
+| Sipeed SLogic32U3 — expected future equipment | Operator backed it and expects a compact logic analyzer in the medium term; not yet in hand | Delivered revision, accessories, actual dimensions, firmware, host compatibility and measured performance |
 | NETGEAR Nighthawk M6 MR6150 | Operator reports unlocked unit | Regional SKU, firmware, available cables/antennas and actual power behavior |
 | Nighthawk battery | Operator reports flat pack marked 3.85 V, 19.4 Wh | Part number, dimensions, chemistry/charge specification, connector and protection/interface details |
 | WiFi Pineapple Mark VII | Operator identified model | Revision, firmware and present configuration |
@@ -47,3 +48,17 @@ The later network, USB, BP5 and power findings are linked from
 establish compatible electrical signaling, USB roles, independent measurements,
 or an available power rail. The control units and networking equipment may be
 valuable subjects to study even when they do not become instrument components.
+
+## Expected logic analyzer
+
+Sipeed's current [product introduction](https://wiki.sipeed.com/slogic32u3)
+lists a 59 × 51 × 13 mm enclosure, 32 digital channels, rate/channel tiers from
+1400 MSa/s at four channels to 200 MSa/s at 32 channels, and USB 3.2 Gen2
+streaming. These are vendor specifications for a future device, not observations
+on delivered equipment. Older mirrored documentation differs in dimensions and
+some options; final mechanical/electrical planning needs the delivered revision.
+
+The expected analyzer makes an independent digital-observation role plausible,
+complementing BP5 bus stimulus/control and electrical context. Keep suitable
+host USB/data paths and probe access in the discussion without requiring its
+arrival for the current research. No optional ADC accessory is assumed owned.
