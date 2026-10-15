@@ -93,3 +93,32 @@ Original GS1/Huntron PDFs and Keysight HTML plus read scope/restoration are in
 the [acquisition record](2026-10-15-interface-methods-acquisitions.md). Keysight's
 full impedance handbook and downloadable time-domain app note could not be
 acquired; no unread handbook is claimed as evidence.
+
+## iCE40 follow-up: small FPGA as a local engine
+
+The operator asks whether the inexpensive “icy” FPGA is useful. Interpret
+provisionally as Lattice iCE40, possibly an iCEBreaker/iCESugar board; exact
+reference is not established.
+
+[Lattice's current UltraPlus table](https://www.latticesemi.com/Products/FPGAandCPLD/iCE40UltraPlus)
+lists UP5K with 5,280 logic cells, 1 Mbit single-port RAM, 120 Kbit EBR and eight
+DSP blocks. Board I/O exposure, clocking and export path still determine usable
+acquisition. [Glasgow revC3](https://glasgow-embedded.org/en/revisions/revC3.html)
+uses iCE40HX8K, a useful real interface-instrument reference rather than proof
+that a bare development board has its protected frontends/USB path.
+
+Maker prices observed 2026-10-15: [iCEBreaker V1.1b](https://1bitsquared.com/products/icebreaker)
+US$79.95 before checkout taxes/shipping; [Olimex HX8K-EVB](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX8K-EVB/)
+EUR29.95 listed board price. They are different devices/assemblies: current
+iCEBreaker includes USB-C and 64 Mbit QSPI PSRAM; Olimex lists 512 KB external
+SRAM and a separate programming interface. Do not transfer one board's price,
+memory or host transport to the other. [iCESugar](https://github.com/wuxx/icesugar)
+is another UP5K board, without a verified current maker price in this pass.
+
+Engineering assessment: credible candidate for custom bus timing, edge/counter
+logic, encoders, triggers, bounded capture and stimulus/response coordination.
+Finite logic/memory, electrical frontends and host bandwidth remain constraints.
+It adds no RF receiver, ADC or field-voltage tolerance by itself. Compare an
+owned MCU peripheral/PIO solution for simple jobs and more capable FPGA families
+only if actual operating points need them. No board/toolchain adoption, purchase,
+installation, source acquisition or hardware experiment selected.

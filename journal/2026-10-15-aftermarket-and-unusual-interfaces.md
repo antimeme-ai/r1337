@@ -93,3 +93,14 @@ in the newly used ignored corpus directories, root-owned extraction hygiene
 and the shared-doctrine symlink. Lane original-digest checks are recorded in
 the acquisition manifests. Complete staged diff whitespace is checked before
 commit; no code/device tests apply.
+
+## iCE40 question
+
+Checked Lattice UltraPlus resources, current iCEBreaker and Olimex maker listings,
+iCESugar project identity and Glasgow revC3 hardware for the operator's “icy”
+FPGA question. Exact intended board remains ambiguous; answer provisionally for
+iCE40. Recorded dated prices and device/board distinctions in the measurement
+note. Assessed a small FPGA as a plausible local timing/trigger/interface engine,
+with separate frontend/capture/export constraints. No purchase or toolchain
+selected. This follow-up adds prose and external links only; diff whitespace
+check applies, with no source/device tests.
