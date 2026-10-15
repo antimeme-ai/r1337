@@ -59,6 +59,10 @@ for the implications of these references and the current priority order.
 No acquired implementation was executed or adopted; no hardware was selected
 or operated. Revision and development status qualify every reference.
 
+The later R8000-like form-factor discussion acquired an original General
+Dynamics brochure. Its source, checksum, restoration and read scope are in the
+[research journal](../journal/2026-10-15-weird-device-frumentarii.md#r8000-like-service-monitor-form).
+
 ## Two source baselines
 
 - [Modern official firmware reference](https://github.com/flipperdevices/flipperzero-firmware/tree/3fb1d51727733d2007abc5ec636a89328857803e),

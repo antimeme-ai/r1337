@@ -57,7 +57,10 @@ discussion.
 
 Physical direction: a finished folding tablet or polished cyberdeck, with one
 integrated portable core and at most one detachable pocket module. The operator
-rejects an improvised assembly of exposed boards, loose cables and many external
+also accepts a field-optimized General Dynamics R8000-like service-monitor form:
+a self-contained carried instrument with a working front panel. Compare these
+families without fixing size, mass, input layout or protection rating yet.
+The operator rejects an improvised assembly of exposed boards, loose cables and many external
 modules. Treat fit, finish, coherent controls, connector placement and mechanical
 integration as design requirements. Internal serviceability can remain modular;
 the external product should be resolved as one object with one optional docked

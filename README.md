@@ -2,8 +2,9 @@
 
 Develop a portable instrument with as much useful RF, electromagnetic,
 debugging, sensing and device-firmware access capability as we can integrate
-into a finished folding tablet or cyberdeck. A secondary focus is interfacing
-with and managing heterogeneous control systems across vendors and generations.
+into a finished folding tablet, cyberdeck or field service-monitor form. A
+secondary focus is interfacing with and managing heterogeneous control systems
+across vendors and generations.
 Camera and basic environmental sensing are desirable tertiary capabilities.
 
 The starting point was a Flipper Zero connected to a Mac over USB-C. The growing

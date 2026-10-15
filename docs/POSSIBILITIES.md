@@ -121,9 +121,9 @@ design question. No current target's protocol or voltage has been inferred.
 
 ## Physical forms and what CAD can contribute
 
-The operator has narrowed the earlier options: a finished folding tablet or
-polished cyberdeck, with one integrated portable core and at most one detachable
-pocket module. Visual/mechanical integration is part of the product brief.
+The acceptable families are a finished folding tablet, polished cyberdeck or
+field-optimized General Dynamics R8000-like service monitor, with one integrated
+portable core and at most one detachable pocket module. Visual/mechanical integration is part of the product brief.
 Historical research comparing many probes, packs and nodes remains useful
 reference; it does not define the desired external form.
 
@@ -131,7 +131,17 @@ reference; it does not define the desired external form.
 | --- | --- | --- |
 | Folding tablet | A compact closed object that opens into a larger working interface | Display arrangement, input method, hinge and supported working positions |
 | Refined clamshell cyberdeck | A deliberate portable instrument with protected controls and well-organized ports | Keyboard versus other controls, thickness, display, grip and working posture |
+| Field service monitor, inspired by R8000 | A carried, self-contained instrument with a screen, physical controls and accessible test ports on a working face | Stable posture with attached cables, handle/stand, transport cover, lead storage, connector protection, mass and power/thermal partitioning |
 | One docked pocket companion | A single useful instrument that separates from the core and has a finished home when carried | Whether Flipper or another design fills this role, retention, power/data and standalone behavior |
+
+The original General Dynamics [R8000A brochure](https://testequipment.center/Product_Documents/General-Dynamics-R8000A-Specifications-02B81.pdf)
+shows a front-panel service instrument with an 8.4-inch display, contextual keys,
+direct mode selection, keypad and tuning control. This is a physical/interaction
+reference, not a request to reproduce its RF specifications, size or weight.
+Our field adaptation could compare tactile capture/adjustment controls, stable
+support, protected transport and deliberate probe/antenna storage. The form
+opens different packaging options; actual sensitivity, shielding, cooling,
+runtime and environmental protection still require our own design and tests.
 
 CAD could resolve the hinge, docking bay, structural carriers, service panels,
 connector access and deliberate antenna placement as one assembly. Internal
@@ -211,6 +221,8 @@ configuration, subnet route or remote service was changed in this discussion.
 - Which operations need local hardware timing, and which can use host messages?
 - What should the core do, and what single standalone role earns the pocket companion?
 - Does a folding tablet or a clamshell arrangement better support the intended work?
+- Would a service-monitor body better support probe-heavy work, physical controls
+  and field setup than the thinner forms, at acceptable carrying size/mass?
 - Which desired behavior calls for custom firmware, and how much of the stack
   would owning it help us change?
 

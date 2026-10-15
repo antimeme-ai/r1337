@@ -60,3 +60,29 @@ range. Neither phone is in palera1n's A8–A11 chip range. Kept advertised suppo
 separate from results on owned hardware and from generic USB/baseband access.
 No phone operation, app install, jailbreak, exploit or downgrade was performed.
 Checked document diff/whitespace; this is a documentation-only clarification.
+
+## R8000-like service-monitor form
+
+The operator also finds a field-optimized General Dynamics R8000 form attractive.
+Added this as a third physical family alongside folding tablet and polished
+cyberdeck, preserving one integrated core, at most one pocket companion and high
+production values. No dimensions, weight or environmental rating is selected.
+Compared front-panel controls, working posture with probes attached, carry/
+transport protection and lead storage as design inputs. Hardware performance
+and available interior partitioning remain separate questions.
+
+Read the original General Dynamics R8000A brochure hosted by a distributor;
+retained the unchanged PDF at `papers/form-factors/gd-r8000a-brochure.pdf`.
+Source/restoration from repository root:
+
+```sh
+mkdir -p papers/form-factors
+curl -fsSL https://testequipment.center/Product_Documents/General-Dynamics-R8000A-Specifications-02B81.pdf -o papers/form-factors/gd-r8000a-brochure.pdf
+```
+
+SHA-256: `5fd0a52ac83de227a1132f1bf28e51f2a90b0f35138de4845513df00823ad3ef`.
+Web PDF screenshots failed with cache misses; used the installed `pdftoppm`
+to view brochure front/panel pages, with working images in ignored context.
+This is an interaction/form reference, not R8000 acquisition or a claim that our
+instrument matches its measurements. Checked diff whitespace; no device or
+implementation work.
