@@ -39,6 +39,7 @@ remain open; further device experiments and implementation follow detailed desig
 - [First reconnaissance: findings and next experiments](docs/RECONNAISSANCE.md)
 - [Portable instrument possibilities](docs/POSSIBILITIES.md)
 - [Growing hardware inventory](docs/HARDWARE_INVENTORY.md)
+- [Aftermarket survey and unusual interface opportunities](papers/2026-10-15-aftermarket-and-interface-synthesis.md)
 - [Primary sources and open research questions](papers/README.md)
 - [Issue index](ISSUES.md) and [GitHub issues](https://github.com/antimeme-ai/r1337/issues)
 - [Project journal](journal/2026-10-15-bootstrap.md)

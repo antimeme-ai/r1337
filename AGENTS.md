@@ -64,6 +64,14 @@ fixtures, controlled counterparts or subjects to study without all belonging in
 the final portable assembly. No hardware purchase is selected by the current
 discussion.
 
+The operator subsequently requested comprehensive aftermarket and overlooked
+interface research. Read papers/2026-10-15-aftermarket-and-interface-synthesis.md
+and its lane reports before proposing further modules. Preserve distinctions
+between coupling, electrical frontend, timing/observation, device semantics,
+secure-element provisioning and packaging. The supplied Gemini hardware/software
+claims were checked in papers/2026-10-15-interface-tool-claims.md; do not inherit
+their incorrect chip/board attributions or universal raw-capture claims.
+
 The operator requests scope/function-generator capability, expects the SLogic32U3 logic
 analyzer, and is interested in VNA/SNA and basic optical test/stimulation.
 The owned Analog Discovery 3 stays outside the box as bench equipment. Ham-radio

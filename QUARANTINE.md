@@ -60,6 +60,27 @@ The LibreVNA PDF remains in that lane's ignored archive directory; the Sensirion
 PDF is under ignored `papers/field-sensing/`. These are study materials without
 dependency or hardware adoption. The iPhone note uses live primary sources.
 
+## Aftermarket and unusual-interface pass
+
+- [Flipper aftermarket acquisitions](papers/2026-10-15-flipper-aftermarket-acquisitions.md):
+  pinned NARD, Seader, UHF Expansion and FlipperMeister carrier archives under
+  quarantine/aftermarket-flipper; original Microchip and DigiLab PDFs under
+  papers/aftermarket-flipper.
+- [Interface aftermarket acquisitions](papers/2026-10-15-interface-aftermarket-acquisitions.md):
+  Tigard, HydraLINCAN and Gladiolus archives, BP RS232 native schematic and TI
+  ISO14xx PDF under quarantine/aftermarket-interfaces.
+- [Unusual-interface literature](papers/2026-10-15-unusual-interface-acquisitions.md):
+  six original primary PDFs under papers/unusual-interfaces, with derived text
+  under ignored quarantine/unusual-interfaces.
+- [Measurement methods / protocol tools](papers/2026-10-15-interface-methods-acquisitions.md):
+  URH/Netzob archives and original Keysight HTML under quarantine/interface-methods;
+  original GS1 Gen2 and Huntron PDFs under papers/interface-methods.
+
+Manifests preserve exact URLs, pins/served revisions, hashes, rights/notice
+locations, selected read scope, restoration and unresolved downloads. Original
+archives/PDFs remain unchanged; extracted reference trees are sanitized. No
+source execution, dependency adoption or board selection accompanied the pass.
+
 ## Continuing acquisition
 
 The [enclosure-sensing report](papers/2026-10-15-enclosure-sensing.md) records

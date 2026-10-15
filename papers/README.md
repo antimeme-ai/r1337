@@ -79,6 +79,25 @@ No new acquisition, device operation, implementation or dependency accompanied
 this design pass. Detailed performance requirements, electrical block design,
 power/return domains and motion/volume studies remain ahead of a prototype plan.
 
+## Aftermarket and unusual interaction research
+
+Read the [synthesis](2026-10-15-aftermarket-and-interface-synthesis.md) for
+capability gaps, stash overlap and consequences for detailed design.
+
+| Lane | Report | Acquisition/restoration |
+| --- | --- | --- |
+| Flipper accessories and credential/radio/industrial/sensing additions | [Survey](2026-10-15-flipper-aftermarket-frumentarii.md) | [Four source archives and two PDFs](2026-10-15-flipper-aftermarket-acquisitions.md) |
+| BP accessories and adjacent interface/industrial/optical tools | [Survey](2026-10-15-interface-aftermarket-frumentarii.md) | [Three archives, native schematic and datasheet](2026-10-15-interface-aftermarket-acquisitions.md) |
+| Overlooked physical/temporal/analog/HMI interaction avenues | [Research](2026-10-15-unusual-interface-avenues.md) | [Six primary PDFs](2026-10-15-unusual-interface-acquisitions.md) |
+| Supplied Gemini claims and protocol software | [Claim/tool check](2026-10-15-interface-tool-claims.md) | [URH/Netzob source snapshots](2026-10-15-interface-methods-acquisitions.md) |
+| Electrical signatures, UHF reader physics and reflectometry | [Measurement methods](2026-10-15-interface-measurement-methods.md) | [GS1/Huntron PDFs and Keysight HTML](2026-10-15-interface-methods-acquisitions.md) |
+
+Coverage is categorical/representative. Reports separate inspected source,
+maker descriptions, provisional integrations and proposed experiments. No
+device operation, purchase, dependency, installation or loadout was selected.
+Current-module manuals/schematics and unavailable full measurement references
+are tracked in [SHOPPING_LIST.md](../SHOPPING_LIST.md).
+
 ## Two source baselines
 
 - [Modern official firmware reference](https://github.com/flipperdevices/flipperzero-firmware/tree/3fb1d51727733d2007abc5ec636a89328857803e),

@@ -10,6 +10,11 @@ now synthesize this discussion into a reviewable proposal. Read those for the
 current system boundaries and candidate assignments; this document preserves
 the broader possibilities and research links that led to them.
 
+The later [aftermarket and unusual-interface synthesis](../papers/2026-10-15-aftermarket-and-interface-synthesis.md)
+surveys actual additions/overlap and physical, temporal, analog and panel-based
+avenues. It adds requirement candidates without selecting purchases or changing
+the chosen service-monitor form.
+
 ## Capabilities emerging from the inventory
 
 The operator's clarified primary objective is maximum useful capability across

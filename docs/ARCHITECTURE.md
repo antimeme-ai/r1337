@@ -364,3 +364,11 @@ claims. The [research synthesis](../papers/2026-10-15-weird-devices-synthesis.md
 [closed-case sensing report](../papers/2026-10-15-enclosure-sensing.md) preserve
 the primary-source links, inspected revisions and limits. Component choices,
 packaging and workflows above are proposals, not observations on the stash.
+
+
+The later [aftermarket and unusual-interface synthesis](../papers/2026-10-15-aftermarket-and-interface-synthesis.md)
+adds source-grounded requirements candidates: UHF/contact-card paths, industrial
+and sampled-optical frontends, excitation-dependent transducers, intended
+optical/supply maintenance channels, physical HMI fixtures and event observation.
+It reinforces the existing frontend/timing/fixture boundaries. These are research
+inputs to detailed design, not additional selected boards or verified capabilities.
