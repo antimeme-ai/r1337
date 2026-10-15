@@ -60,7 +60,11 @@ service monitor inspired by the General Dynamics R8000. The operator explicitly
 chooses this over pursuing a thin cyberdeck/folding tablet: useful mass/volume
 are acceptable, and the result should be sleek for its instrument class. Work
 within available prototyping capabilities rather than requiring difficult
-miniaturization or precision folding mechanisms. The earlier form comparisons
+miniaturization. Kirigami-inspired articulation is explicitly welcome: explore
+display lift/tilt, moving port access and probe supports. Service-monitor form
+does not prescribe a static rectangular enclosure. Evaluate motions by useful
+working geometry, stable support, cable routing and achievable construction.
+No particular folding material or linkage is selected. The earlier form comparisons
 are historical research, not an active requirement to pursue all three forms.
 
 Preserve one integrated core and at most one optional detachable pocket module.

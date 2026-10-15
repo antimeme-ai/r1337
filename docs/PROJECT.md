@@ -131,6 +131,15 @@ controls/ports, carrying and transport protection, retained probes/leads and
 deliberate power, thermal and electrical partitioning. Materials, finish,
 antenna placement, cable routing and service access belong in the same design.
 
+The operator explicitly welcomes kirigami-inspired movement for display
+elevation/angle, probe ports and other useful deployment. The instrument can
+have distinct carried and working configurations. Explore an integrated body
+that opens, lifts or unfolds into better working geometry without importing a
+thin-tablet packaging requirement. Movement should earn its role through usable
+screen/port/probe positions. Support/retention, stability with attached leads,
+cable bend paths, service access and feasible prototyping are design inputs;
+no specific linkage, fold material or mechanism has been chosen.
+
 Exact body dimensions, acceptable mass, control layout, construction process,
 pocket-module role and electronics remain discussion questions. This is a form
 direction, not an unbounded weight budget or a claim of environmental protection.

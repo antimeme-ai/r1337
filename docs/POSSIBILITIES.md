@@ -132,6 +132,7 @@ detachable pocket module.
 | --- | --- | --- |
 | Working face | Screen, physical controls and accessible test ports as one deliberate interface | Viewing angle, tactile capture/adjustment, connector placement and use with attached leads |
 | Carried instrument body | Stable support, carry/transport handling and internal service access | Handle/stand, transport cover, construction process, mass and power/thermal/electrical partitioning |
+| Deployable working geometry | Kirigami-inspired display lift/tilt, opening port access and probe supports within the integrated body | Useful positions, support/retention, attached-lead clearance, cable bend paths, construction and service access |
 | One docked pocket companion | A single useful instrument that separates from the core and has a finished home when carried | Whether Flipper or another design fills this role, retention, power/data and standalone behavior |
 
 The original General Dynamics [R8000A brochure](https://testequipment.center/Product_Documents/General-Dynamics-R8000A-Specifications-02B81.pdf)
@@ -142,6 +143,16 @@ Our field adaptation could compare tactile capture/adjustment controls, stable
 support, protected transport and deliberate probe/antenna storage. The form
 opens different packaging options; actual sensitivity, shielding, cooling,
 runtime and environmental protection still require our own design and tests.
+
+The operator explicitly wants articulation explored: the carried shape can
+open into a different working shape. Candidate studies include a display that
+rises/tilts while the base and main test connections stay supported, a cover
+that becomes a working support or probe tray, and port access that opens into
+a convenient orientation. These are functional proposals, not selected
+mechanisms. Kirigami-inspired geometry does not require that a thin folded
+sheet carry the instrument's loads; material and mechanism choices remain open.
+Simple motion mockups could compare reach, viewing angle, lead clearance and
+stable working positions before a detailed mechanical design.
 
 CAD could resolve the handle/stand, cover, optional dock, carriers, service panels,
 connector access and deliberate antenna placement as one assembly. Internal

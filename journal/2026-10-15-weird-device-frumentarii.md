@@ -116,3 +116,15 @@ Body size, numerical weight budget, construction, controls, electronics and
 environmental ratings remain open. The decision sets the physical family;
 it does not select a detailed architecture, permit unlimited mass or start
 implementation. Checked diff whitespace; no device, CAD or code work occurred.
+
+## Articulated service-monitor geometry
+
+The operator clarified that the service-monitor direction can include
+kirigami-inspired movement, including a monitor swinging up for ergonomics and
+deployable probe-port access. Updated guidance/brief/possibility map to separate
+a practical carried body from its working configuration. Removed language that
+could be read as excluding useful folding mechanisms. Display lift/tilt,
+opening port access and useful cover/support functions are candidate studies;
+material, linkage, load support, cable routing and construction remain open.
+Preserved the integrated core and one optional companion. Checked diff
+whitespace; no mechanism, CAD, implementation or experiment was selected.
