@@ -111,3 +111,15 @@ proposals must identify a useful gap or integration need; existing equipment
 may contribute as final components, detachable instruments, development/test
 fixtures or subjects. No part was selected, ordered or operated. This is a
 text-only preference update; diff whitespace was checked.
+
+## Physical direction: integrated core and one companion
+
+The operator described a folding tablet or a cyberdeck with high production
+values, portable and reasonably ordinary-looking. At most one detachable pocket
+module is acceptable. They explicitly reject an improvised exterior assembled
+from loose modules. Updated current project/agent guidance and the possibility
+map so the earlier many-probe/distributed-kit research is not mistaken for the
+product direction. Fit/finish, hinges, controls, ports, retained cable paths,
+antenna placement, serviceability and a finished companion dock become inputs
+to the design. No particular dimensions, keyboard/display layout, pocket-module
+electronics or enclosure has been selected. No CAD or device work performed.

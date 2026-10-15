@@ -65,8 +65,8 @@ been reproduced. No ESP board was flashed or tested in this discussion pass.
 | --- | --- | --- |
 | Signal notebook | Examine activity, save selected observations, attach notes, and revisit the same place or object | Clear scope of observation, honest capture gaps, useful local display and storage |
 | Controlled experiment station | Send a known IR/radio stimulus and observe a target's wired or sensor response | Independent stimulus/observation paths and a defined trigger/time relationship |
-| Portable controller with remote nodes | Leave a sensor or radio node with the subject and inspect results from the handheld | Local autonomy, clear link-loss behavior, and deliberate placement |
-| Reconfigurable interface instrument | Exchange a wired probe or radio module as the job changes | Stable module interfaces, identification, connectors and reusable procedures |
+| Core with one pocket companion | Leave the companion beside a subject or carry it separately and inspect results on the core | A defined companion role, local autonomy, link behavior and a finished dock |
+| Integrated interface instrument | Select the appropriate built-in interface for the job and attach its target lead | Consolidated ports, useful labeling, stored leads and reusable procedures |
 | Equipment identification workbench | Build a documented understanding of a controller's connectors, signaling and observable behavior | Model/pinout identification, suitable interface electronics, probes and reproducible notes |
 | Controlled network/USB laboratory | Compare an owned host or network device's response to known supported endpoints | Deliberate device roles, known configurations and independent observations |
 
@@ -84,16 +84,23 @@ design question. No current target's protocol or voltage has been inferred.
 
 ## Physical forms and what CAD can contribute
 
-| Form | Useful when | Cost to investigate |
-| --- | --- | --- |
-| One compact handheld | Immediate access and one-handed local interaction dominate | Crowded antennas/connectors, enclosure volume, power and service access |
-| Handheld core with removable probes | Different jobs need different front ends | Connector durability, module power/data contracts, cable strain and inventory |
-| Small folding bench | Several leads, target power and a larger view are central | More carrying volume and a setup step, with more working space available |
-| Handheld plus distributed nodes | Observations belong at several physical locations | Multiple clocks, power sources, links and cases |
+The operator has narrowed the earlier options: a finished folding tablet or
+polished cyberdeck, with one integrated portable core and at most one detachable
+pocket module. Visual/mechanical integration is part of the product brief.
+Historical research comparing many probes, packs and nodes remains useful
+reference; it does not define the desired external form.
 
-CAD could let us change module carriers and connector panels while preserving
-the hand interface, route probes without loading board headers, place antennas
-deliberately, and retain access for repair/debugging. Shielded regions and RF
+| Candidate | Character to investigate | Open decisions |
+| --- | --- | --- |
+| Folding tablet | A compact closed object that opens into a larger working interface | Display arrangement, input method, hinge and supported working positions |
+| Refined clamshell cyberdeck | A deliberate portable instrument with protected controls and well-organized ports | Keyboard versus other controls, thickness, display, grip and working posture |
+| One docked pocket companion | A single useful instrument that separates from the core and has a finished home when carried | Whether Flipper or another design fills this role, retention, power/data and standalone behavior |
+
+CAD could resolve the hinge, docking bay, structural carriers, service panels,
+connector access and deliberate antenna placement as one assembly. Internal
+modularity can support repair while the outside reads as a finished product.
+Target leads still need storage and strain relief designed into the experience.
+Shielded regions and RF
 windows need an electrical purpose and later measurements. Geometry cannot
 establish RF quality, thermal performance, or battery endurance by itself.
 
@@ -108,7 +115,8 @@ compares the transport, power, timing and mechanical consequences.
 - Which results need a screen immediately, and which can be examined later?
 - Which events need continuous capture, and which tolerate short snapshots?
 - Which operations need local hardware timing, and which can use host messages?
-- Does the job favor one object, replaceable probes, or several independent nodes?
+- What should the core do, and what single standalone role earns the pocket companion?
+- Does a folding tablet or a clamshell arrangement better support the intended work?
 - Which desired behavior calls for custom firmware, and how much of the stack
   would owning it help us change?
 

@@ -40,6 +40,21 @@ experiments, interfaces between instruments, and what custom firmware would
 enable. Evaluate host-coordinated instruments and direct coupling as distinct
 system choices. No physical pairing or firmware architecture is selected.
 
+## Physical direction
+
+The operator can see a folding tablet or a cyberdeck with high production
+values. The core should be portable, visually coherent and reasonably ordinary
+to carry. One detachable pocket module is acceptable; a collection of exposed
+modules and improvised external cabling is outside the desired form.
+
+This narrows the earlier physical possibilities to an integrated product with
+one optional companion. Internal carriers and serviceable electronics can still
+be modular. Hinges, retention, cable routing, ports, antenna placement, controls,
+materials and finish must be designed together with the electronic layout.
+The exact enclosure, display/keyboard arrangement, size and pocket-module role
+are still discussion questions. The broader stash can support development and
+test subjects without appearing on the outside of the finished instrument.
+
 ## Exploration sequence
 
 | Stage | Work | Useful result |
