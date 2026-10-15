@@ -2,7 +2,7 @@
 
 ## Acquisitions as of 2026-10-15
 
-Eleven unchanged source archives and their extracted references are retained
+Twelve unchanged source archives and their extracted references are retained
 under ignored `quarantine/`. Exact source URLs, revisions, SHA-256 hashes,
 license locations, studied scope, and restoration commands are recorded in:
 
@@ -14,6 +14,8 @@ license locations, studied scope, and restoration commands are recorded in:
   qFlipper, Unleashed, Momentum, and flipperzero-rs under `quarantine/recovery/`.
 - [ESP32 SDR acquisition manifest](papers/2026-10-15-esp32-sdr-acquisitions.md):
   ESPARGOS ESP-SDR, eSpDR, and the Zephyr SDR port under `quarantine/esp32-sdr/`.
+- [Wi-Fi 7 SDR acquisition manifest](papers/2026-10-15-wifi7-sdr-acquisitions.md):
+  W1700K SDR at its recorded revision under `quarantine/wifi7-sdr/`.
 
 These are study snapshots. Only the two explicitly recorded modern firmware
 gitlinks are populated; the other submodules are absent. None is claimed to be
@@ -32,8 +34,12 @@ the SDR manifest above and the
 Two later NETGEAR PDFs are retained under ignored `papers/network-power/`;
 their hashes, exact sources and restoration commands are in the
 [MR6150/power report](papers/2026-10-15-mr6150-power-possibilities.md).
-The current literature corpus has seven original PDFs. The Bus Pirate/Hak5
-discussion used linked primary documentation without new source snapshots.
+Those batches contain seven PDF files. The Bus Pirate/Hak5 discussion used
+linked primary documentation without new source snapshots. The later
+[MR6150 internals report](papers/2026-10-15-mr6150-internals.md) records eight
+PDF downloads under `papers/mr6150/`, including another unchanged copy of the
+earlier MR6150 technical sheet. The FCC photographs and their model-identity
+limits are described in that report; working figures remain in ignored context.
 
 ## Continuing acquisition
 

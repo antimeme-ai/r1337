@@ -13,9 +13,15 @@ manuals. No purchase is currently identified.
 | Next | AN5289 wireless integration | CPU1/CPU2 mailbox, clock and flash coordination | Relevant sections read on web; local ST transfers failed |
 | Next | AN2606 boot ROM | ROM entry, memory use and supported recovery commands | WB55 sections read on web; local ST transfers failed |
 | Next | SA0024 CPU isolation advisory | Preserve the exact vendor statement alongside CPU2 research | Read on web; local copy still needed |
+| Later | A working MR6150 open-source firmware bundle matching an identified release | Establish application-side OS, architecture and driver details before treating it as a general computing platform | NETGEAR lists packages, but its two MR6150 archive targets returned HTTP 404 during the router-internals pass |
 
 Exact primary URLs, served document revisions, acquisition failures, and
 restoration details are in the
 [hardware acquisition report](papers/2026-10-15-hardware-acquisitions.md).
+The newer NETGEAR source gap is documented in
+[MR6150 internals](papers/2026-10-15-mr6150-internals.md); its
+[manufacturer catalog](https://www.downloads.netgear.com/files/GDC/2649_GPLv1.html)
+points MR6150 releases to `NTGX65_10.04.13.00-OSC.tgz` and
+`NTGX65_12.01.11.00.zip`, both unavailable when checked.
 Fresh official links or operator-provided original PDFs can fill these gaps.
 Continue independent source work while these downloads remain unresolved.

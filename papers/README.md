@@ -34,6 +34,8 @@ possibility discussion precede further experiments or implementation. Read the
 | [Bus Pirate 5 possibilities](2026-10-15-bus-pirate5-possibilities.md) | Buffered interfaces, target power, capture topology, automation and screen roles | Primary docs linked; exact unit revision/firmware unverified |
 | [Network and USB possibilities](2026-10-15-network-usb-instrument-possibilities.md) | Pineapple Mark VII, MK7AC, Bash Bunny and candidate O.MG Plug roles | Primary manufacturer docs linked; no device activation |
 | [MR6150 and power possibilities](2026-10-15-mr6150-power-possibilities.md) | Backhaul, actual model limits and battery-label energy arithmetic | Two original NETGEAR PDFs with hashes/restoration in report |
+| [MR6150 internals](2026-10-15-mr6150-internals.md) | Exact-model facts, shared-family FCC photographs, RF/power/antenna blocks and software-access gaps | Eight PDF downloads with sources/hashes/restoration; technical sheet overlaps the earlier batch |
+| [Wi-Fi 7 SDR reconnaissance](2026-10-15-wifi7-sdr-reconnaissance.md) | Actual W1700K/MT7996 raw-I/Q implementation, firmware, export and measurement limits | [One pinned source snapshot](2026-10-15-wifi7-sdr-acquisitions.md) |
 
 These reports describe candidate uses and source-supported capabilities. They
 do not establish results on the operator's boards or select an architecture.

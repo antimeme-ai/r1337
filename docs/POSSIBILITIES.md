@@ -59,6 +59,28 @@ external hardware. The [SDR report](../papers/2026-10-15-esp32-sdr-reconnaissanc
 records precise source baselines, sample/export constraints and what has not
 been reproduced. No ESP board was flashed or tested in this discussion pass.
 
+## Router internals and a wider SDR possibility
+
+The later router investigation is recorded in
+[MR6150 internals](../papers/2026-10-15-mr6150-internals.md) and
+[Wi-Fi 7 SDR reconnaissance](../papers/2026-10-15-wifi7-sdr-reconnaissance.md).
+The Nighthawk's documented X62/Wi-Fi 6 platform and the Gemtek/MediaTek Wi-Fi 7
+SDR project are distinct hardware/access paths. No raw-I/Q capability has been
+established on the operator's MR6150.
+
+The W1700K SDR author reports replacement MT7996 firmware, raw complex sampling
+at up to 320 MS/s, and sustained export over 10 GbE. That suggests a materially
+different instrument option from the short snapshots of classic ESP32: a wide
+instantaneous RF view in the supported bands. It also changes the processing,
+memory, storage and transport budget. The author has not established calibrated
+dBm levels or completed all long-run work; a 14-bit sample representation alone
+does not specify effective resolution or instrument accuracy.
+
+This is a capability lead, not a proposed purchase or a claim of compatibility
+with arbitrary Wi-Fi 7 routers. Identify the networking stash before considering
+a new receiver. Any future radio subsystem still needs to fit the integrated
+core/one-companion form and the actual observation being sought.
+
 ## Experiences worth comparing
 
 | Possible instrument | Example experience | What would make it useful |
