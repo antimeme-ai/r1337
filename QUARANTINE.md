@@ -29,6 +29,11 @@ The later portable discussion added one author SDR measurement PDF under
 `papers/portable-system/`. Their exact sources, hashes and restoration are in
 the SDR manifest above and the
 [portable system report](papers/2026-10-15-portable-system-possibilities.md).
+Two later NETGEAR PDFs are retained under ignored `papers/network-power/`;
+their hashes, exact sources and restoration commands are in the
+[MR6150/power report](papers/2026-10-15-mr6150-power-possibilities.md).
+The current literature corpus has seven original PDFs. The Bus Pirate/Hak5
+discussion used linked primary documentation without new source snapshots.
 
 ## Continuing acquisition
 

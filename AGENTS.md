@@ -14,8 +14,9 @@ capability, documented upstream behavior, and behavior observed on this unit.
 
 Current operator direction: understand the device and discuss what is possible
 before further device experiments or implementation. The operator has additional
-hardware and ideas to introduce, including a Bus Pirate whose model/revision is
-not yet known. Explore complementary uses and system boundaries together before
+hardware and ideas to introduce. The located Bus Pirate is provisionally a BP5;
+its exact revision and firmware remain unknown. Explore complementary uses and
+system boundaries together before
 choosing a build or returning to recovery experiments. Custom firmware remains
 an option, not the next predetermined step.
 

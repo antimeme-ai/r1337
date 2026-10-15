@@ -17,7 +17,8 @@ hardware and source study rather than inferred from the phrase "full custom."
 Following the first reconnaissance, the operator directed that we understand
 the device and think through possibilities before further experiments or
 implementation. Additional equipment and ideas will shape this discussion;
-the operator owns a Bus Pirate, with model/revision still to be established.
+the operator located a likely Bus Pirate 5, with exact revision and firmware
+still to be established.
 
 The operator has since found additional boards and is interested in a new
 portable form factor, CAD possibilities, and recent ESP32 SDR work. The

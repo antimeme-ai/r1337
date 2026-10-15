@@ -66,3 +66,38 @@ Checked all 65 relative document links, the shared doctrine symlink,
 project-only Git scope and diff whitespace. This delivery changes research and
 discussion documents only; no source tests were rerun. Publish the notes on the
 existing research branch and update its pull request around the expanded scope.
+
+## Further inventory: Bus Pirate, network/USB equipment and power
+
+The operator located a device marked approximately “genuine bus 5 5 pirate”;
+Bus Pirate 5 is the working identification, with revision/firmware unknown.
+They also identified an unlocked MR6150, Pineapple Mark VII, MK7AC, candidate
+O.MG Plug, Bash Bunny, additional Pis, FPV packs, prosumer network equipment,
+light industrial controls and assorted legacy/current cables. The Nighthawk
+battery is described as flat, 3.85 V and 19.4 Wh. Updated the inventory without
+inferring unknown models, electrical signaling or pack configuration.
+
+Two parallel research lanes documented BP5 and Hak5 platform roles. Root read
+MR6150 primary specifications plus relevant manual sections and preserved two
+original PDFs with hashes/restoration. The corpus now has eleven source
+snapshots and seven original PDFs. No new source archive or dependency was
+added by this increment.
+
+Concrete findings: BP5 has meaningful wired/electrical functions, while its
+revision-dependent rated output is distinct from the current-limit setting;
+its capture topology differs from BP6. Pineapple is an active network computer,
+MK7AC a host-dependent Wi-Fi interface, and the USB gadgets have device roles.
+MR6150 supplies a candidate backhaul independently of any battery reuse. Label
+arithmetic implies approximately 5.04 Ah nominal; ideal runtime examples are
+energy calculations, not measured system runtime. All exact citations and
+unknowns remain in the three new papers and possibility map.
+
+Industrial/network equipment may serve as subjects to characterize or known
+counterparts, and cable collections may supply identified adapters. Neither
+connector shape nor an informal equipment category establishes electrical
+compatibility. The current phase remains discussion. No additional device was
+connected, activated, interrogated, opened or modified.
+
+Checked the expanded set of 73 relative document links, shared doctrine
+symlink, project-only Git scope and diff whitespace. This increment changes
+documents only; no source tests or hardware experiments were run.

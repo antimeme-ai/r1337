@@ -14,12 +14,30 @@ found by the operator from hardware actually inspected by this project.
 | Flipper Wi-Fi module v1 | A candidate ESP32-S2 platform and especially useful debugging instrument | Identify the physical module and installed image; an SDR role and a debugger role need explicit firmware choices |
 | CC1312R1 LaunchPad | An independent programmable sub-GHz endpoint with its own application processor | Raw packets, demodulated timings and RSSI differ from raw I/Q; fitted RF network matters |
 | Raspberry Pis | Possible local host, analysis, storage and richer display | Model determines connectivity, size, load, cooling and usable interfaces |
-| Bus Pirate | Potential wired protocol/measurement partner | Generation and actual capture/electrical features remain unknown |
+| Bus Pirate 5, working identification | Wired protocol control, buffered IO, voltage/current context and target-power functions | Revision/firmware affect output ratings, capture topology and automation interfaces |
+| Nighthawk M6 MR6150 | Candidate independent cellular backhaul, with Wi-Fi/Ethernet/tethering roles | Regional SKU, actual power behavior and available management interfaces remain unverified |
+| Pineapple Mark VII and MK7AC | An independent network computer and dual-band USB packet interface | USB host/device roles, channel allocation, driver compatibility and capture loss matter |
+| Bash Bunny and candidate O.MG Plug | Programmable USB test counterparts for identified laboratory hosts | Exact generation/tier and present configuration remain unknown; these are active devices |
+| Nighthawk pack and FPV batteries | Candidate energy stores for different mechanical arrangements | Pack voltage/energy labels do not establish regulated rails, charging or connector requirements |
+| Industrial/network units and cable collection | Subjects to study, known test counterparts, and possible adapters/infrastructure | Identify each model, electrical interface and pinout before assigning a role |
 | Xilo controller and other modules | Further compute, sensing or interface options | Wait for actual identification before assigning capabilities |
 
 The [module research](../papers/2026-10-15-radio-module-possibilities.md)
 grounds the identified platforms in manufacturer documentation. These are
 candidate roles. No board must be included merely because it is available.
+
+The later inventory supports a broader combination of physical-interface,
+network, radio and USB instruments. Useful common machinery might record which
+subject, interface, instrument configuration, trigger and observation produced
+each result. That is a candidate ownership boundary worth comparing with
+replacing individual device firmware.
+
+New primary-source reports cover [Bus Pirate 5](../papers/2026-10-15-bus-pirate5-possibilities.md),
+[network/USB platforms](../papers/2026-10-15-network-usb-instrument-possibilities.md),
+and [MR6150/power](../papers/2026-10-15-mr6150-power-possibilities.md).
+The BP5 already has its own color electrical-status display, so Flipper need
+not automatically own every user interaction. The Nighthawk can be useful as
+an intact network appliance independently of any battery-reuse proposal.
 
 ## The ESP32 SDR opening
 
@@ -49,12 +67,20 @@ been reproduced. No ESP board was flashed or tested in this discussion pass.
 | Controlled experiment station | Send a known IR/radio stimulus and observe a target's wired or sensor response | Independent stimulus/observation paths and a defined trigger/time relationship |
 | Portable controller with remote nodes | Leave a sensor or radio node with the subject and inspect results from the handheld | Local autonomy, clear link-loss behavior, and deliberate placement |
 | Reconfigurable interface instrument | Exchange a wired probe or radio module as the job changes | Stable module interfaces, identification, connectors and reusable procedures |
+| Equipment identification workbench | Build a documented understanding of a controller's connectors, signaling and observable behavior | Model/pinout identification, suitable interface electronics, probes and reproducible notes |
+| Controlled network/USB laboratory | Compare an owned host or network device's response to known supported endpoints | Deliberate device roles, known configurations and independent observations |
 
 These are use proposals, not claims that the current boards already perform
 the complete experience. A Bus Pirate might improve the wired observation
 part; a Pi might improve analysis and storage; a CC1312R node might move an
 observation away from the user's hands. The desired experience should decide
 whether each addition earns its power, space and integration cost.
+
+The industrial-control and networking bins could make these experiences
+concrete. Cable variety is valuable once each cable's purpose is known;
+connector shape alone does not establish RS-232, RS-485, CAN, logic-level serial,
+USB data roles or power. Appropriate interface electronics remain a separate
+design question. No current target's protocol or voltage has been inferred.
 
 ## Physical forms and what CAD can contribute
 

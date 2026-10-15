@@ -31,6 +31,9 @@ possibility discussion precede further experiments or implementation. Read the
 | [ESP32 SDR reconnaissance](2026-10-15-esp32-sdr-reconnaissance.md) | Native I/Q, exact chip differences, capture/export limits, external-radio and transmit distinctions | [Three source snapshots and one measurement PDF](2026-10-15-esp32-sdr-acquisitions.md) |
 | [Radio module possibilities](2026-10-15-radio-module-possibilities.md) | Exact CC1312R1, classic WROVER and conditional Wi-Fi Module V1 roles | Manufacturer sources linked; no new local corpus |
 | [Portable system possibilities](2026-10-15-portable-system-possibilities.md) | Use-driven physical forms, host roles, timing, power, and useful CAD studies | TI LaunchPad hardware PDF and restoration recorded in report |
+| [Bus Pirate 5 possibilities](2026-10-15-bus-pirate5-possibilities.md) | Buffered interfaces, target power, capture topology, automation and screen roles | Primary docs linked; exact unit revision/firmware unverified |
+| [Network and USB possibilities](2026-10-15-network-usb-instrument-possibilities.md) | Pineapple Mark VII, MK7AC, Bash Bunny and candidate O.MG Plug roles | Primary manufacturer docs linked; no device activation |
+| [MR6150 and power possibilities](2026-10-15-mr6150-power-possibilities.md) | Backhaul, actual model limits and battery-label energy arithmetic | Two original NETGEAR PDFs with hashes/restoration in report |
 
 These reports describe candidate uses and source-supported capabilities. They
 do not establish results on the operator's boards or select an architecture.

@@ -16,6 +16,8 @@ flashed. Language, runtime, dependencies, and replacement boundaries remain open
 **Current focus:** understand the growing equipment collection and discuss
 portable instrument possibilities before further device experiments. New
 research covers ESP32 raw-I/Q SDR, complementary module roles, and physical forms.
+The inventory also includes network/USB instruments, a likely Bus Pirate 5,
+industrial-control subjects, and several possible power sources.
 
 ## Start here
 
