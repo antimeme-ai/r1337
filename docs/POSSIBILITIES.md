@@ -146,6 +146,36 @@ identities are still needed before dimensions are meaningful. The
 [physical/system research](../papers/2026-10-15-portable-system-possibilities.md)
 compares the transport, power, timing and mechanical consequences.
 
+## Camera and basic sensing
+
+Parallel research through Flipper One and unusual instrument projects is
+summarized in the [weird-device synthesis](../papers/2026-10-15-weird-devices-synthesis.md).
+The strongest lessons concern independent local control, configurable interface
+timing, complementary measurement classes, coherent UI and measurement-aware
+mechanical integration. The reports preserve prototype/revision/source limits.
+
+The operator wants camera and basic sensors such as temperature as tertiary
+objectives, behind RF/EM/debug/firmware breadth and heterogeneous control-system
+access. A camera could support equipment/connector identification, inspection,
+visual records tied to captures and remote support. Close-focus behavior,
+lighting, viewing direction and usable images of boards/labels matter alongside
+pixel count. No camera or sensor suite is selected or assumed owned.
+
+Old iPhones are explicitly available as candidate camera/display/input/network
+components. The [iPhone integration note](../papers/2026-10-15-iphone-integration.md)
+records model/OS and accessory limits. Compare a complete-phone mount/dock with
+dedicated display/camera parts; a detachable phone must fit the one-companion
+requirement. Exact model, current software support and battery condition remain
+unknown; no general USB instrument-driver or temperature capability is inferred.
+
+Environmental sensing, contact temperature, thermal imaging and internal
+temperature monitoring are distinct capabilities. A sensor's placement and
+exposure matter to its readings. The acquired Sensirion design guide in the
+[analog/control research](../papers/2026-10-15-analog-control-frumentarii.md)
+supports considering sensor compartments, airflow, thermal separation and
+response time during mechanical design. An MCU temperature readout alone does
+not establish ambient or target temperature.
+
 ## Tailnet-connected support station
 
 The operator proposes remote LLM/reference-library assistance and heavier

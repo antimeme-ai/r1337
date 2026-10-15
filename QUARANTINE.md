@@ -2,7 +2,7 @@
 
 ## Acquisitions as of 2026-10-15
 
-Twelve unchanged source archives and their extracted references are retained
+Pinned unchanged source archives and their extracted references are retained
 under ignored `quarantine/`. Exact source URLs, revisions, SHA-256 hashes,
 license locations, studied scope, and restoration commands are recorded in:
 
@@ -40,6 +40,25 @@ linked primary documentation without new source snapshots. The later
 PDF downloads under `papers/mr6150/`, including another unchanged copy of the
 earlier MR6150 technical sheet. The FCC photographs and their model-identity
 limits are described in that report; working figures remain in ignored context.
+
+## Weird-device reference pass
+
+Additional snapshots and original documents are recorded in these manifests:
+
+- [Flipper One](papers/2026-10-15-flipper-one-acquisitions.md): portal source,
+  MCU source, hardware publication index and mechanical reference.
+- [RF/EM/debug instruments](papers/2026-10-15-weird-instruments-acquisitions.md):
+  Glasgow source and a pinned LibreVNA manual.
+- [Field sensing](papers/2026-10-15-field-sensing-acquisitions.md): Jansen's
+  2026 tricorder cyberdeck and historical Arducorder source.
+- [Analog/control](papers/2026-10-15-analog-control-acquisitions.md): PSLab
+  firmware and the Sensirion sensor design guide.
+
+Original source archives remain intact under ignored `quarantine/weird-devices/`;
+the manifests distinguish submodules not acquired and scope actually read.
+The LibreVNA PDF remains in that lane's ignored archive directory; the Sensirion
+PDF is under ignored `papers/field-sensing/`. These are study materials without
+dependency or hardware adoption. The iPhone note uses live primary sources.
 
 ## Continuing acquisition
 

@@ -9,6 +9,7 @@ or connected by this project. Exact variants remain open where indicated.
 | Flipper Zero | USB/CLI inventory in `DEVICE.md`; reported hardware code 12 and 2023 firmware | Physical board identification and accessory connections |
 | Flipper Zero Wi-Fi module v1 | Operator found the module | Physical revision/module markings and installed firmware |
 | Raspberry Pis | Several available; more found during inventory | Models, RAM, accessories, displays and power arrangements |
+| Old iPhones | Operator explicitly offers existing phones for integration | Models, iOS versions, Lightning/USB-C connectors, condition, battery health and available accessories |
 | TI LAUNCHXL-CC1312R1 — two boards | Operator supplied exact LaunchPad model and confirmed two available | Physical board revisions, antenna arrangements and accessories |
 | Freenove ESP32-WROVER | Operator found board and ESP32 GPIO extension board | Freenove product/PCB revision, module markings, attached peripherals |
 | Xilo flight controller | Operator found board | Exact model, MCU, sensors, connectors and documentation |

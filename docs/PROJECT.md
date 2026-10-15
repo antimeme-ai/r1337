@@ -22,6 +22,26 @@ spanning four decades. The system should support investigating unfamiliar
 equipment and making understood equipment useful together. Exact models,
 interfaces and supported operations have not yet been identified.
 
+A camera and basic sensors, including temperature, are desirable tertiary
+objectives. Investigate their use for equipment identification, inspection,
+measurement context and field observations. Distinguish ambient temperature,
+contact target temperature, thermal imaging and internal device temperature;
+these require different sensor paths. Optical focus, lighting, sensor placement
+and measurement metadata are integration concerns. No camera, thermal imager or
+sensor suite has been selected or assumed present in the stash.
+
+The operator also offers old iPhones for integration. Compare reusing a complete
+phone for camera/display/input and network access with dedicated parts, keeping
+the finished core/one-companion requirement. Models, OS versions and battery
+condition are unknown. No generic USB driver support, thermal camera, ambient
+temperature sensor or specific network/app support is inferred.
+
+The operator requested parallel research through the Flipper One open
+development portal and other unusual device projects. Study their actual
+hardware/software boundaries, physical integration and useful combinations of
+capabilities; record published plans and prototype claims separately from
+demonstrated or inspected implementations.
+
 Compare capability coverage with the space, power, thermal, RF-interference,
 data-path and integration costs. Count usable observations and operations,
 including their supported ranges and limits, rather than installed board count.

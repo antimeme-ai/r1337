@@ -13,6 +13,14 @@ the operator's lab has equipment from roughly 25 vendors across four decades.
 Breadth and useful combinations of capabilities are explicit goals; do not
 require selection of a narrow use case before exploring the system. Flipper
 exploration and an owned custom firmware stack remain candidate components.
+Camera and basic sensors such as temperature are desirable tertiary objectives.
+The operator explicitly requested a parallel frumentarii exploration of the
+Flipper One open development portal and unusual device projects for ideas.
+Study design patterns and actual limits; this does not select those platforms
+as purchases or dependencies. Preserve primary/secondary/tertiary priorities.
+Old iPhones are available for integration. Investigate complete-phone display,
+camera, sensing and network-client roles without assuming a particular model,
+iOS version, app compatibility or general-purpose USB instrument access.
 Replacement boundaries, language, runtime and architecture are open. Establish
 device facts directly; distinguish hardware capability, documented upstream
 behavior and observations on actual units.

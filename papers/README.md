@@ -41,6 +41,24 @@ These reports describe candidate uses and source-supported capabilities. They
 do not establish results on the operator's boards or select an architecture.
 No device operations or source execution accompanied this discussion pass.
 
+## Weird device and sensing research
+
+The operator added camera/basic sensing as tertiary goals and requested a
+parallel exploration of Flipper One and unusual device projects. Old iPhones
+are also available. Read the [synthesis](2026-10-15-weird-devices-synthesis.md)
+for the implications of these references and the current priority order.
+
+| Lane | Report | Acquisitions |
+| --- | --- | --- |
+| Flipper One portal, source and physical integration | [Flipper One](2026-10-15-flipper-one-frumentarii.md) | [Pinned archives and publication limits](2026-10-15-flipper-one-acquisitions.md) |
+| RF/EM and adaptable debug instruments | [Weird instruments](2026-10-15-weird-instruments-frumentarii.md) | [Glasgow source and LibreVNA manual](2026-10-15-weird-instruments-acquisitions.md) |
+| Field sensing, camera/thermal and coherent UI | [Field sensing](2026-10-15-field-sensing-frumentarii.md) | [Tricorder/Arducorder source](2026-10-15-field-sensing-acquisitions.md) |
+| Analog instruments, control interfaces and sensor packaging | [Analog/control](2026-10-15-analog-control-frumentarii.md) | [PSLab source and Sensirion guide](2026-10-15-analog-control-acquisitions.md) |
+| Existing iPhones as components | [iPhone integration](2026-10-15-iphone-integration.md) | Primary Apple/Tailscale documentation linked; no local archive |
+
+No acquired implementation was executed or adopted; no hardware was selected
+or operated. Revision and development status qualify every reference.
+
 ## Two source baselines
 
 - [Modern official firmware reference](https://github.com/flipperdevices/flipperzero-firmware/tree/3fb1d51727733d2007abc5ec636a89328857803e),
