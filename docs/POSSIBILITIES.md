@@ -101,6 +101,7 @@ core/one-companion form and the actual observation being sought.
 | Possible instrument | Example experience | What would make it useful |
 | --- | --- | --- |
 | Signal notebook | Examine activity, save selected observations, attach notes, and revisit the same place or object | Clear scope of observation, honest capture gaps, useful local display and storage |
+| Spoken inspection/teardown notebook | Press a tactile control and dictate observations beside equipment, attaching narration to the session's photos and traces | Immediate recording feedback, local original audio, useful microphone placement and optional later remote transcription/research |
 | Controlled experiment station | Send a known IR/radio stimulus and observe a target's wired or sensor response | Independent stimulus/observation paths and a defined trigger/time relationship |
 | Core with one pocket companion | Leave the companion beside a subject or carry it separately and inspect results on the core | A defined companion role, local autonomy, link behavior and a finished dock |
 | Integrated interface instrument | Select the appropriate built-in interface for the job and attach its target lead | Consolidated ports, useful labeling, stored leads and reusable procedures |

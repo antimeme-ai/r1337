@@ -128,3 +128,15 @@ opening port access and useful cover/support functions are candidate studies;
 material, linkage, load support, cable routing and construction remain open.
 Preserved the integrated core and one optional companion. Checked diff
 whitespace; no mechanism, CAD, implementation or experiment was selected.
+
+## Push-to-talk interaction and field narration
+
+The operator singled out push-to-talk as a useful basic interaction, especially
+for dictating equipment inspections and teardowns in the field. Recorded tactile
+voice-note capture as a cross-cutting field workflow: local audio, clear
+start/stop feedback, association with the equipment/photos/measurements, and
+optional remote transcription/reference assistance. Preserved narration,
+transcription and measured data as distinct observations. This learns from a
+PTT interaction without asserting Flipper One's radio PTT module implements
+dictation. No microphone, speech dependency, service or device operation was
+selected. Checked documentation diff/whitespace; no code tests needed.

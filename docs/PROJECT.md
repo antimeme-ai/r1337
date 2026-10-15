@@ -87,6 +87,23 @@ commands that change device state; reconnecting must not silently repeat a
 control or firmware operation. This is design direction, not a selected
 transport, job protocol, LLM stack or deployment.
 
+## Field notes and tactile voice capture
+
+The operator highlights push-to-talk as an interaction worth learning from
+Flipper One: dictating inspections, teardown observations and other field notes
+is useful basic functionality. Investigate a dedicated tactile press-to-record
+control with clear recording feedback. This is a proposed porter_ricks voice
+workflow, not a claim that Flipper One already supplies speech transcription.
+
+Retain original audio locally and associate it with the current equipment
+session, photos, captures and relevant event times. Remote support could
+transcribe, search references or help assemble an inspection/teardown record;
+recording must remain usable offline and analysis can follow later. Keep
+operator narration, derived transcription and instrument measurements
+distinguishable. Microphone placement, handling noise, operation with occupied
+hands and immediate start/stop feedback are physical/UI design inputs. No audio
+hardware, speech service or implementation is selected.
+
 ## Current discussion
 
 Following the first reconnaissance, the operator directed that we understand
