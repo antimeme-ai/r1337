@@ -54,7 +54,9 @@ than combining maximum figures from several product descriptions.
 
 The operator offers old iPhones for integration. A complete phone is a candidate
 camera/display/input/network client and could avoid separately integrating some
-of that machinery. Exact models, OS, connector and condition remain unknown.
+of that machinery. The operator subsequently identified an 11 Pro Max on
+17.4.1 and a 14 Pro Max on 26.6, both Lightning models; battery condition and
+actual app/interface behavior remain unknown.
 This is not evidence for arbitrary USB instrument access or ambient/thermal
 sensing. The [iPhone note](2026-10-15-iphone-integration.md) records Apple
 accessory boundaries and the current Tailscale App Store requirement of iOS
@@ -95,3 +97,29 @@ time/data paths, probes/adapters, existing parts, integration cost and remaining
 unknowns. It can explore breadth without assigning every available board to the
 enclosure or narrowing the instrument to a single use case. No architecture,
 firmware implementation, experiment or procurement was selected in this pass.
+
+## Discussion after the pass
+
+The operator finds the portable-science references appealing and is interested
+in making a VNA PCB. They also accept an R8000-inspired field service-monitor
+form alongside the tablet/cyberdeck. These expand the design discussion without
+selecting a board, enclosure or implementation sequence.
+
+Root's current view: the central value is complementary observations and
+repeatable interaction with unfamiliar equipment. Our software could connect
+images, RF/electrical traces, interface settings, manual references and reusable
+device profiles. Local measurement/control, local presentation/storage and
+remote support form a useful candidate separation. Exact processors remain
+open. Electrical frontends, probes, calibration and physical integration appear
+more discriminating than adding another generic compute board.
+
+A VNA is particularly interesting because it could add a distinct measurement
+class and help characterize the antennas, filters, cables and matching networks
+used by the broader instrument. The reference design separates RF stimulus,
+reference/test receive paths, local digital processing and host analysis;
+calibration remains part of the measurement. Making a board could mean
+fabricating a reference for study or designing owned hardware; the operator has
+not selected between those. Choose intended range/quality, manufacturing and
+calibration/verification approach before treating a successful PCB assembly as
+an instrument milestone. This paragraph is an engineering judgment based on
+the acquired corpus, not a new measured result or a selected build plan.

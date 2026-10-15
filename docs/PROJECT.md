@@ -45,6 +45,12 @@ hardware/software boundaries, physical integration and useful combinations of
 capabilities; record published plans and prototype claims separately from
 demonstrated or inspected implementations.
 
+The portable-science references appeal to the operator, who also expressed
+interest in making a VNA PCB. Record VNA hardware as a candidate for deeper
+study. Fabricating an existing reference board versus developing our own
+design, frequency range, measurement quality, calibration and system role
+remain open; no board implementation or procurement is selected.
+
 Compare capability coverage with the space, power, thermal, RF-interference,
 data-path and integration costs. Count usable observations and operations,
 including their supported ranges and limits, rather than installed board count.

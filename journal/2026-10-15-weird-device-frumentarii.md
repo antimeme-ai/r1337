@@ -86,3 +86,17 @@ to view brochure front/panel pages, with working images in ignored context.
 This is an interaction/form reference, not R8000 acquisition or a claim that our
 instrument matches its measurements. Checked diff whitespace; no device or
 implementation work.
+
+## Synthesis and VNA-board interest
+
+The operator likes the portable-science direction and expressed interest in
+making a VNA PCB, then requested root's synthesis of the research/discussion.
+Recorded that interest without deciding whether it means fabricating a reference
+or designing owned hardware. Updated the cross-lane synthesis with the known
+iPhones, service-monitor option and current engineering judgments. Re-read the
+current LibreVNA architecture description; a web manual fetch failed, while the
+previously acquired original and lane analysis remain available. No new corpus
+acquisition was needed. The main synthesis concerns complementary measurement
+classes, local timing versus remote analysis, interface/calibration/mechanical
+work and reusable device knowledge. Checked diff whitespace; no code/device
+work, dependency, purchase or build plan was introduced.
