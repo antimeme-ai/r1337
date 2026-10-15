@@ -164,3 +164,19 @@ are an option to study, not a selected architecture. Model/connector/manual
 identification remains useful input. No new research claim, dependency,
 purchase or device operation was introduced. Checked the document diff and
 whitespace; no code tests were needed.
+
+## Tailnet and remote support
+
+The operator proposed a tailnet-connected instrument supported by a remote
+station with LLM inference, library lookup and heavier analysis. Recorded
+this in the brief, agent guidance and possibility map; named host/library
+details are in ignored context. Read current Tailscale primary documentation
+for local service publishing and SSH. These establish network options without
+selecting an application protocol or asserting an existing deployment.
+
+The design direction keeps acquisition timing and device operations local,
+transfers selected original captures with metadata, and returns source-linked
+analysis. Offline use, resumable transfers and avoiding duplicate state-changing
+commands are concrete design concerns. No host inspection, remote execution,
+network configuration, service deployment, dependency adoption or device
+operation occurred. Checked document diff and whitespace; no code tests needed.

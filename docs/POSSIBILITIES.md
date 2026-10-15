@@ -146,6 +146,31 @@ identities are still needed before dimensions are meaningful. The
 [physical/system research](../papers/2026-10-15-portable-system-possibilities.md)
 compares the transport, power, timing and mechanical consequences.
 
+## Tailnet-connected support station
+
+The operator proposes remote LLM/reference-library assistance and heavier
+analysis on a support station. This can increase capability without putting
+all compute, storage or literature on the carried device. The support station
+could accept model numbers, images, captured bus traffic or selected RF/sensor
+samples and return source-linked findings, decoded results and suggested next
+observations. Exact host/library interfaces have not been inspected.
+
+Keep acquisition timing, local buffering and device transactions on the
+instrument. Transfer selected data with its sample rate, representation,
+channel meaning, units/scaling and instrument/probe configuration as applicable.
+Preserve originals; an LLM interpretation must remain distinguishable from a
+measurement or verified device identity. Investigate resumable capture uploads,
+cached device/reference profiles and an offline workflow. Remote assistance
+need not imply a continuous WAN sample stream or a latency-sensitive control
+loop. Continuous export remains a separate data-path question.
+
+Tailscale documents [tailnet-local service publishing](https://tailscale.com/docs/reference/tailscale-cli#serve)
+and [SSH access](https://tailscale.com/docs/features/tailscale-ssh).
+These provide connectivity options, not acquisition/job semantics. A capable
+host in the core is a candidate tailnet endpoint; MCU-based peripherals can
+remain behind its local instrument interfaces. No Tailscale install, host
+configuration, subnet route or remote service was changed in this discussion.
+
 ## Questions to keep open as more parts arrive
 
 - What does the user want to observe, understand or control while carrying it?

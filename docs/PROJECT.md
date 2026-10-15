@@ -34,6 +34,30 @@ multiple external modules carried with the instrument remain outside the
 physical brief. No gateway, protocol stack or management architecture is
 selected.
 
+## Remote support
+
+The operator proposes putting the portable instrument on the tailnet and
+providing a remote support station with LLM access, a reference library and
+compute/storage that need not be carried. Model identifiers, label/board
+images, selected signal captures and device transcripts are candidate inputs;
+manual references, analysis, candidate identifications and suggested next
+measurements are candidate outputs. The named host/library details are retained
+in ignored context. Their interfaces and availability remain uninspected.
+
+Investigate a split in which capture, triggering, local display, buffering and
+time-sensitive device operations work locally. Remote assistance extends
+research and analysis. Bounded captures and selected windows can use much less
+bandwidth than continuous raw streams; actual transfer budgets depend on the
+sample representation, channel count, rate and duration. Preserve the original
+data and capture metadata so remote interpretation can be checked.
+
+Connection loss should leave local instruments usable, retain pending captures
+and allow interrupted transfers to resume. Remote suggestions need their
+supporting sources and uncertainty attached. Separate analysis retries from
+commands that change device state; reconnecting must not silently repeat a
+control or firmware operation. This is design direction, not a selected
+transport, job protocol, LLM stack or deployment.
+
 ## Current discussion
 
 Following the first reconnaissance, the operator directed that we understand
