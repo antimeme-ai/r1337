@@ -135,6 +135,14 @@ hardware, speech service or implementation is selected.
 
 ## Current discussion
 
+The operator subsequently directed that we proceed while the thermal dongle
+remains to be found. The [first system architecture](ARCHITECTURE.md) and
+[capability matrix](CAPABILITIES.md) now turn the research into a proposal for
+review. They preserve the capability breadth and service-monitor direction,
+propose stash roles and identify measurement/interface gaps. This advances
+system design; no board selection, hardware operation or software implementation
+is implied. The earlier discussion below explains the inputs to that proposal.
+
 Following the first reconnaissance, the operator directed that we understand
 the device and think through possibilities before further experiments or
 implementation. Additional equipment and ideas will shape this discussion;

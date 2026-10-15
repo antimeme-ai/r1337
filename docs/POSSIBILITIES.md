@@ -5,6 +5,11 @@ not select a device, firmware stack, enclosure, protocol, or implementation
 sequence. The [hardware inventory](HARDWARE_INVENTORY.md) distinguishes parts
 found by the operator from hardware actually inspected by this project.
 
+The [first architecture](ARCHITECTURE.md) and [capability matrix](CAPABILITIES.md)
+now synthesize this discussion into a reviewable proposal. Read those for the
+current system boundaries and candidate assignments; this document preserves
+the broader possibilities and research links that led to them.
+
 ## Capabilities emerging from the inventory
 
 The operator's clarified primary objective is maximum useful capability across
@@ -13,9 +18,9 @@ of varied devices. A secondary objective is interfacing with and managing lab
 control systems from roughly 25 vendors spanning four decades. Breadth is a
 positive design objective within the finished core/one-companion form.
 
-The next synthesis should map each capability's frequency or electrical range,
-direction, timing, capture/export limits, probes, host path and integration
-costs to existing equipment and actual gaps. Controls work additionally needs
+The capability matrix maps observation/stimulus, timing, capture/export paths,
+probes, host paths and gaps; exact frequency/electrical targets still need design.
+Controls work additionally needs
 model-specific command meaning, units, operating states and failure behavior;
 electrical/protocol compatibility alone does not establish a working device
 integration. Fixed lab-side gateways are a possibility to investigate, not an

@@ -37,10 +37,13 @@ host/service details in ignored context, not public documentation. Investigate
 an autonomous local instrument with remote assistance: local acquisition,
 hardware timing and device operations; remote research/analysis and reusable
 results. Connectivity, host services and library APIs have not been inspected
-or deployed. The current phase remains discussion and design research.
+or deployed. The current phase is system design, grounded in the acquired research.
 
-Current operator direction: understand the device and discuss what is possible
-before further device experiments or implementation. The operator has additional
+Current operator direction: proceed from the discussion into a first system
+architecture and capability synthesis, before further device experiments or
+implementation. Read `docs/ARCHITECTURE.md`, `docs/CAPABILITIES.md` and their
+review reports. These propose component roles; they are not selected hardware,
+finished specifications or an implementation plan. The operator has additional
 hardware and ideas to introduce. The located Bus Pirate is provisionally a BP5;
 its exact revision and firmware remain unknown. Explore complementary uses and
 system boundaries together before

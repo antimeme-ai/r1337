@@ -24,15 +24,17 @@ recovery research. The unit reports dev firmware 0.81.1 from 2023, hardware code
 12, and working internal/microSD filesystems. No firmware has been built or
 flashed. Language, runtime, dependencies, and replacement boundaries remain open.
 
-**Current focus:** understand the growing equipment collection and discuss
-portable instrument possibilities before further device experiments. New
-research covers ESP32 raw-I/Q SDR, complementary module roles, and physical forms.
-The inventory also includes network/USB instruments, a likely Bus Pirate 5,
-industrial-control subjects, and several possible power sources.
+**Current focus:** turn the research and growing equipment inventory into a
+reviewed system design. The [first architecture](docs/ARCHITECTURE.md) proposes
+local acquisition, a host for UI/records, remote assistance and an articulated
+service-monitor body. Its [capability matrix](docs/CAPABILITIES.md) distinguishes
+stash candidates from measurement gaps. Board choices and performance targets
+remain open; further device experiments and implementation follow detailed design.
 
 ## Start here
 
 - [Project brief and exploration sequence](docs/PROJECT.md)
+- [First system architecture](docs/ARCHITECTURE.md) and [capability matrix](docs/CAPABILITIES.md)
 - [Device inventory and repeatable collector](docs/DEVICE.md)
 - [First reconnaissance: findings and next experiments](docs/RECONNAISSANCE.md)
 - [Portable instrument possibilities](docs/POSSIBILITIES.md)

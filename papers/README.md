@@ -64,6 +64,21 @@ The later R8000-like form-factor discussion acquired an original General
 Dynamics brochure. Its source, checksum, restoration and read scope are in the
 [research journal](../journal/2026-10-15-weird-device-frumentarii.md#r8000-like-service-monitor-form).
 
+## System design and adversarial review
+
+The [first architecture](../docs/ARCHITECTURE.md) and
+[capability matrix](../docs/CAPABILITIES.md) synthesize the discussion into a
+proposal. Three independent reviews challenged the actual boundaries:
+
+- [Software/action boundaries](2026-10-15-architecture-software-review.md)
+- [Measurement, electrical paths and throughput](2026-10-15-architecture-measurement-review.md)
+- [Physical integration, power and human use](2026-10-15-architecture-physical-review.md)
+
+Initial findings and revision dispositions are retained in the reports.
+No new acquisition, device operation, implementation or dependency accompanied
+this design pass. Detailed performance requirements, electrical block design,
+power/return domains and motion/volume studies remain ahead of a prototype plan.
+
 ## Two source baselines
 
 - [Modern official firmware reference](https://github.com/flipperdevices/flipperzero-firmware/tree/3fb1d51727733d2007abc5ec636a89328857803e),

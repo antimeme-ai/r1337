@@ -78,6 +78,19 @@ sensitivity and specialized aperture/model methods answer different questions.
 ADC sample rate alone does not establish usable signal bandwidth or resolution.
 Nothing here establishes component-scale enclosure tomography from the stash.
 
+### Ground-penetrating radar clarification
+
+The operator also asked how GPR works. Read [USGS's radar explanation](https://water.usgs.gov/ogw/bgas/scour/),
+[Sensors & Software's timing/hyperbola explanation](https://www.sensoft.ca/support/faq/)
+and [FHWA's underground-utility overview](https://infotechnology.fhwa.dot.gov/gpr-ground-penetrating-radar-metal-steel/).
+GPR measures reflections from electrical-property changes; pulse travel time
+and propagation speed estimate depth. Moving the antenna builds a profile;
+straight pipes can draw hyperbolas because the travel distance changes.
+Conductive ground attenuates signals. A metal target can be detected through
+suitable surrounding material, while a continuous metal panel blocks useful
+imaging behind it. This clarification does not select a radar subsystem for
+r1337. No additional source archive was acquired for the explanation.
+
 ## Thermal dongle and other optical access
 
 FLIR's [material-transmission explanation](https://www.flir.com/en-in/discover/home-outdoor/can-thermal-imaging-see-through-walls/)
