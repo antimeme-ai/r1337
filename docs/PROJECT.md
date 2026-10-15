@@ -12,6 +12,19 @@ The device is both our research subject and the eventual deployment target.
 An owned stack is the likely destination. Its scope must be made concrete through
 hardware and source study rather than inferred from the phrase "full custom."
 
+## Current discussion
+
+Following the first reconnaissance, the operator directed that we understand
+the device and think through possibilities before further experiments or
+implementation. Additional equipment and ideas will shape this discussion;
+the operator owns a Bus Pirate, with model/revision still to be established.
+
+Investigate the Flipper as an instrument in a larger set of tools: its own
+capabilities and limits, overlap and complementary roles, useful joint
+experiments, interfaces between instruments, and what custom firmware would
+enable. Evaluate host-coordinated instruments and direct coupling as distinct
+system choices. No physical pairing or firmware architecture is selected.
+
 ## Exploration sequence
 
 | Stage | Work | Useful result |
@@ -22,8 +35,9 @@ hardware and source study rather than inferred from the phrase "full custom."
 | Define the first custom system | Decide ownership boundaries, host/device interfaces, language, runtime, and the smallest useful hardware milestone | Reviewed design and implementation plan |
 | Implement and explore | Build in conceptual units, test against explicit behavior, review, and iterate | Working owned firmware with reproducible builds and measured behavior |
 
-These are research stages, not a selected implementation architecture. Device
-exploration can continue while independent source questions are being resolved.
+These are possible research stages, not the current execution queue or a
+selected implementation architecture. The understanding/discussion phase above
+currently precedes further device experiments.
 
 ## Questions that determine the design
 

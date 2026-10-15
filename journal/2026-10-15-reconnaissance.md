@@ -103,3 +103,19 @@ future reviewed custom-system design. The local issue index matches those
 statuses. All 45 relative document links, the shared doctrine symlink,
 project-only Git scope, and diff whitespace checks passed. Publish this coherent
 research/tooling checkpoint on the feature branch with a pull request.
+
+## Operator steering after reconnaissance
+
+The operator wants to understand the device and consider possibilities before
+further experiments or implementation. They have more equipment and ideas to
+introduce, including a Bus Pirate. Its revision is unknown. Updated project and
+agent guidance to preserve this discussion phase and avoid treating recovery or
+custom-firmware work as the automatic next action.
+
+Read current official Bus Pirate hardware/logic-analyzer documentation and
+Flipper specifications/GPIO documentation to ground the initial discussion.
+Potential complementary roles are RF/IR/NFC stimulus and portable interaction
+on Flipper, wired protocol/measurement functions on Bus Pirate, and host-side
+coordination/analysis. Exact electrical, capture, power and control-interface
+capabilities are model-dependent; no pairing design is selected. No device
+access or code change occurred during this discussion turn.

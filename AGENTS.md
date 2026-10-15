@@ -12,6 +12,13 @@ pretending the replacement boundary, language, runtime, or architecture is
 already selected. Establish device facts directly; distinguish hardware
 capability, documented upstream behavior, and behavior observed on this unit.
 
+Current operator direction: understand the device and discuss what is possible
+before further device experiments or implementation. The operator has additional
+hardware and ideas to introduce, including a Bus Pirate whose model/revision is
+not yet known. Explore complementary uses and system boundaries together before
+choosing a build or returning to recovery experiments. Custom firmware remains
+an option, not the next predetermined step.
+
 Follow the doctrine's research, design, plan, implementation, and review process.
 Before a firmware experiment, understand the affected flash/storage regions and
 the recovery path. Record exact source revisions and tool versions for builds.
