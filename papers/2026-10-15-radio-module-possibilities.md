@@ -40,7 +40,7 @@ Flipper's [developer-board documentation](https://developer.flipper.net/flipperz
 
 The [official schematic index](https://docs.flipper.net/zero/development/hardware/devboard-schematics?stub=1) labels an assembly `Wi-Fi Module_V1_Assembly.pdf` and its module sheet `ESP32-S2-WROVER-N4R2`. That supports the candidate identification but does not establish that every board called “v1” is identical. Espressif's [chip comparison](https://docs.espressif.com/projects/esp-idf/en/v4.3.4/esp32s2/hw-reference/chip-series-comparison.html) distinguishes the S2's single-core LX7, 2.4 GHz Wi-Fi and native USB OTG from classic ESP32; S2 has no Bluetooth.
 
-For porter_ricks, a verified debug board could become valuable even if no networking feature is ever added to the handheld. Keeping it available as a debugger is one possible role; using it as an owned Wi-Fi peripheral is another. Those roles could require different firmware and compete for pins and availability. Wi-Fi hardware alone does not make the stock Flipper applications network-enabled.
+For r1337, a verified debug board could become valuable even if no networking feature is ever added to the handheld. Keeping it available as a debugger is one possible role; using it as an owned Wi-Fi peripheral is another. Those roles could require different firmware and compete for pins and availability. Wi-Fi hardware alone does not make the stock Flipper applications network-enabled.
 
 ## The Freenove WROVER is a different sort of sidecar
 

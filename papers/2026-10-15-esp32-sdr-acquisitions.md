@@ -76,7 +76,7 @@ License source locations: each repository's root `LICENSE`; additionally
 eSpDR's README identifies third-party PHY/startup notices, ESPARGOS's README
 identifies derived FFT kernels and its S2 compatibility component, and the
 Zephyr README/manifest identifies its external components. No dependency or
-license selection for `porter_ricks` follows from acquisition.
+license selection for `r1337` follows from acquisition.
 
 ## Literature
 

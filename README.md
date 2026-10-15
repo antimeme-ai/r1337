@@ -1,4 +1,8 @@
-# porter_ricks
+# r1337
+
+Nomad science in a man-portable field instrument. The name pays homage to the
+General Dynamics R8000 the operator has long coveted. The project began as
+`porter_ricks`; its broader scope led to the rename.
 
 Develop a portable instrument with as much useful RF, electromagnetic,
 debugging, sensing and device-firmware access capability as we can integrate
@@ -11,6 +15,9 @@ The starting point was a Flipper Zero connected to a Mac over USB-C. The growing
 hardware collection now informs a broader instrument. Flipper exploration and
 an owned custom firmware stack remain possible parts of that system; their
 roles will follow from research and design.
+
+For the later software-loadout discussion, **TMTSOYP is to be resurrected as a
+core application**. Its previous implementation and role will be revisited then.
 
 **Status:** read-only device inventory and parallel hardware, firmware, and
 recovery research. The unit reports dev firmware 0.81.1 from 2023, hardware code
@@ -31,7 +38,7 @@ industrial-control subjects, and several possible power sources.
 - [Portable instrument possibilities](docs/POSSIBILITIES.md)
 - [Growing hardware inventory](docs/HARDWARE_INVENTORY.md)
 - [Primary sources and open research questions](papers/README.md)
-- [Issue index](ISSUES.md) and [GitHub issues](https://github.com/antimeme-ai/porter_ricks/issues)
+- [Issue index](ISSUES.md) and [GitHub issues](https://github.com/antimeme-ai/r1337/issues)
 - [Project journal](journal/2026-10-15-bootstrap.md)
 - [Reconnaissance journal](journal/2026-10-15-reconnaissance.md)
 - [Working instructions](AGENTS.md) and [quarantine manifest](QUARANTINE.md)

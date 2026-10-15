@@ -42,7 +42,7 @@ an exact assembly, or sustained local SD recording throughput.
 [Mayhem source](https://github.com/portapack-mayhem/mayhem-firmware),
 [hardware versions](https://github.com/portapack-mayhem/mayhem-firmware/wiki/PortaPack-Versions)
 
-The lesson for porter_ricks is the complete interaction: select an instrument,
+The lesson for r1337 is the complete interaction: select an instrument,
 perform a useful local task, inspect a result, save it, and return to the menu.
 It supplies a better UX reference than making the user manage several attached
 development boards. The maximum host stream implies 40 MB/s of unframed sample

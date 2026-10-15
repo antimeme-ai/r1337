@@ -1,4 +1,4 @@
-# Weird device projects: lessons for porter_ricks
+# Weird device projects: lessons for r1337
 
 Research date: 2026-10-15. Three parallel frumentarii studied Flipper One,
 RF/EM/debug instruments, and sensing/physical integration. Root studied compact

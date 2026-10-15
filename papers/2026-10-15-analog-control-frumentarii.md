@@ -45,7 +45,7 @@ continuous export at the ADC's headline sample rate. Likewise a published
 12-bit ADC capability does not mean every capture mode is 12-bit. None of these
 paths was built or tested here.
 
-For porter_ricks, a small analog measurement/stimulus block could add capability
+For r1337, a small analog measurement/stimulus block could add capability
 beside BP5 and the expected logic analyzer. This is a gap to characterize,
 not a PSLab purchase recommendation. Existing unclassified modules may already
 provide part of the required conditioning, conversion or excitation.
@@ -68,7 +68,7 @@ an MCU protocol peripheral from its electrical line interface. Electrical
 adaptation, termination, grounding/isolation and device commands still need
 individual attention in the multi-decade control-system collection.
 
-For porter_ricks, study the mode visibility, local cancellation, transcript
+For r1337, study the mode visibility, local cancellation, transcript
 recording and automation boundaries. Much of the generic bus role overlaps BP5;
 the control-side lesson is to inventory actual device interfaces before adding
 another general-purpose protocol board. No HydraBus source archive was acquired

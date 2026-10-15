@@ -1,10 +1,16 @@
-# porter_ricks
+# r1337
 
 Read [BLACKBIRD.md](BLACKBIRD.md), [README.md](README.md),
 [docs/PROJECT.md](docs/PROJECT.md), the latest entries in `journal/`, and
 [ISSUES.md](ISSUES.md). The doctrine is symlinked to `../BLACKBIRD.md`.
 On another checkout, obtain the operator's current shared doctrine beside the
 repository. Archived instructions are historical reference only.
+
+The project is now r1337, formerly porter_ricks: an homage to the General
+Dynamics R8000, developed as a nomad-science field instrument. When discussing
+software loadouts later, resurrect TMTSOYP as a core application. Preserve the
+name verbatim; do not infer its acronym, features or implementation. This is a
+future requirement, not a request to begin its implementation now.
 
 The current primary aim is a capability-dense portable RF/electromagnetic,
 debugging, sensing and device-firmware access/assessment instrument. The

@@ -69,7 +69,7 @@ items = (
 for name, url, expected in items:
     path = archives / name
     if not path.exists():
-        request = urllib.request.Request(url, headers={'User-Agent': 'porter-ricks-research'})
+        request = urllib.request.Request(url, headers={'User-Agent': 'r1337-research'})
         with urllib.request.urlopen(request, timeout=120) as response:
             path.write_bytes(response.read())
     assert hashlib.sha256(path.read_bytes()).hexdigest() == expected, path

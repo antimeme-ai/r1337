@@ -2,11 +2,15 @@
 
 ## Intent
 
-The operator initiated `porter_ricks` on 2026-10-15 with two aims:
+The operator initiated the project as `porter_ricks` on 2026-10-15 with two aims:
 
 1. Explore the connected Flipper Zero deeply enough to understand and experiment
    with it as an embedded system.
 2. Most probably build a full custom firmware stack.
+
+The project is now named **r1337** because its scope has grown beyond Flipper.
+The name is an homage to the long-coveted General Dynamics R8000, with the
+operator describing this broader direction as the nomad-science version.
 
 The operator has since clarified the broader goal: maximize useful capability
 across RF, electromagnetic sensing, debugging, sensing and firmware access and
@@ -87,12 +91,20 @@ commands that change device state; reconnecting must not silently repeat a
 control or firmware operation. This is design direction, not a selected
 transport, job protocol, LLM stack or deployment.
 
+## Future software loadouts
+
+The operator explicitly wants **TMTSOYP resurrected as a core application**.
+Revisit the prior project, its purpose and integration when software loadouts
+are discussed. The acronym, source location, features, architecture and runtime
+are not established by the present instruction. This records a future core-app
+requirement; it does not start implementation or select dependencies.
+
 ## Field notes and tactile voice capture
 
 The operator highlights push-to-talk as an interaction worth learning from
 Flipper One: dictating inspections, teardown observations and other field notes
 is useful basic functionality. Investigate a dedicated tactile press-to-record
-control with clear recording feedback. This is a proposed porter_ricks voice
+control with clear recording feedback. This is a proposed r1337 voice
 workflow, not a claim that Flipper One already supplies speech transcription.
 
 Retain original audio locally and associate it with the current equipment

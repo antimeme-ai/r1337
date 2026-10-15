@@ -78,4 +78,4 @@ find quarantine/firmware/upstream quarantine/firmware/installed-reference -type 
 find quarantine/firmware/upstream quarantine/firmware/installed-reference -type f \( -name .DS_Store -o -name '._*' \) -delete
 ```
 
-The ingestion scan found no such metadata/detritus in these four extractions. `.gitignore`, `.gitmodules`, `.github`, and reference source documents remain as upstream source; archived agent instructions, if any, are historical reference. No license decision for porter_ricks follows from any upstream license.
+The ingestion scan found no such metadata/detritus in these four extractions. `.gitignore`, `.gitmodules`, `.github`, and reference source documents remain as upstream source; archived agent instructions, if any, are historical reference. No license decision for r1337 follows from any upstream license.
