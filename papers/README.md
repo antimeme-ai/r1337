@@ -55,6 +55,7 @@ for the implications of these references and the current priority order.
 | Field sensing, camera/thermal and coherent UI | [Field sensing](2026-10-15-field-sensing-frumentarii.md) | [Tricorder/Arducorder source](2026-10-15-field-sensing-acquisitions.md) |
 | Analog instruments, control interfaces and sensor packaging | [Analog/control](2026-10-15-analog-control-frumentarii.md) | [PSLab source and Sensirion guide](2026-10-15-analog-control-acquisitions.md) |
 | Existing iPhones as components | [iPhone integration](2026-10-15-iphone-integration.md) | Primary Apple/Tailscale documentation linked; no local archive |
+| Closed-case sensing: thermal, acoustic, ultrasonic and RF | [Enclosure sensing](2026-10-15-enclosure-sensing.md) | Two original ultrasound/structural-testing PDFs; hashes/restoration and selected read scope in report |
 
 No acquired implementation was executed or adopted; no hardware was selected
 or operated. Revision and development status qualify every reference.

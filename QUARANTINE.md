@@ -62,6 +62,12 @@ dependency or hardware adoption. The iPhone note uses live primary sources.
 
 ## Continuing acquisition
 
+The [enclosure-sensing report](papers/2026-10-15-enclosure-sensing.md) records
+two further original manufacturer PDFs under ignored `papers/enclosure-sensing/`:
+Olympus ultrasonic technical notes and Brüel & Kjær structural-testing guidance.
+Hashes, exact sources, restoration and read scope are in that report; working
+text is retained in ignored context. No new source archive was acquired.
+
 Keep references under ignored `quarantine/`. For every acquisition, record:
 
 - Original source URL, exact revision/version, acquisition date, and purpose.

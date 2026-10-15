@@ -12,6 +12,7 @@ or connected by this project. Exact variants remain open where indicated.
 | iPhone 11 Pro Max | Operator reports iOS 17.4.1; Apple documents A13 and Lightning | Capacity, regional variant, battery health, condition, accessories and actual app/interface behavior |
 | iPhone 14 Pro Max | Operator reports iOS 26.6; Apple documents A16, Lightning, macro photography and LiDAR | Capacity, regional variant, battery health, condition, accessories and actual app/interface behavior |
 | Other old iPhones | Operator expects one or two more and will look for an older jailbreak candidate | Models, exact iOS builds, condition and accessories |
+| Thermal dongle — reported owned, not yet located | Operator recalls one in the stash | Locate it; identify model, connector, supported host/app, optics and original radiometric-data export |
 | TI LAUNCHXL-CC1312R1 — two boards | Operator supplied exact LaunchPad model and confirmed two available | Physical board revisions, antenna arrangements and accessories |
 | Freenove ESP32-WROVER | Operator found board and ESP32 GPIO extension board | Freenove product/PCB revision, module markings, attached peripherals |
 | Xilo flight controller | Operator found board | Exact model, MCU, sensors, connectors and documentation |

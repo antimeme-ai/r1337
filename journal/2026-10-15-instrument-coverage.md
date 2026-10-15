@@ -21,3 +21,26 @@ for development comparisons within its capabilities; it is not asserted to be
 a formal calibration reference. Linked sources directly without new corpus
 downloads. Updated project/agent guidance and checked documentation diff and
 relative links. No device, source, build, dependency or purchase activity.
+
+## Closed-case observations and thermal dongle
+
+The operator asks about ultrasound, acoustics and Wi-Fi radar for understanding
+what lies behind a difficult enclosure panel, and recalls a thermal dongle.
+Recorded the dongle as reported owned but unlocated/unidentified. Read primary
+Evident/Olympus, Brüel & Kjær, Espressif, MIT, TI and FLIR sources; acquired
+unchanged ultrasound technical notes and structural-testing PDFs with hashes,
+restoration and selected read scope in the new enclosure-sensing report.
+
+Distinguished panel/material measurements, activity detection and interior
+imaging. Contact acoustic response and surface thermal patterns are promising
+assessment inputs. Conventional ultrasonics face coupling/air-gap constraints;
+Wi-Fi motion/channel sensing and fine displacement sensitivity do not establish
+static component imaging through a metal housing. These are research findings
+and engineering judgments, not measured results on the stash. The report also
+notes direct optical access through an existing opening as an option, without
+assuming a borescope is owned. No actual panel or transducer was selected.
+
+Updated inventory, brief, capability map and research/corpus indices. Checked
+relative links, original-PDF hashes, ignored boundaries and diff whitespace.
+No hardware, acoustic/radio stimulus, app install, source execution or device
+operation occurred; no software tests apply to these document-only changes.

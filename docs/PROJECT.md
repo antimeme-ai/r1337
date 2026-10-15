@@ -31,8 +31,9 @@ objectives. Investigate their use for equipment identification, inspection,
 measurement context and field observations. Distinguish ambient temperature,
 contact target temperature, thermal imaging and internal device temperature;
 these require different sensor paths. Optical focus, lighting, sensor placement
-and measurement metadata are integration concerns. No camera, thermal imager or
-sensor suite has been selected or assumed present in the stash.
+and measurement metadata are integration concerns. Portable camera/sensor
+implementation remains open; the inventory records phone cameras and the
+operator's subsequently reported, not-yet-located thermal dongle.
 
 The operator also offers old iPhones for integration. Compare reusing a complete
 phone for camera/display/input and network access with dedicated parts, keeping
@@ -62,6 +63,14 @@ not be incorporated into this box. Additional ham-radio equipment is available
 if relevant, with models and capabilities still unknown. The
 [capability discussion](POSSIBILITIES.md#instrument-coverage-sought) distinguishes
 the requested functions from existing hardware and missing design decisions.
+
+The operator asks about acoustic/ultrasonic and Wi-Fi-radar observations behind
+a difficult enclosure panel. Investigate closed-case assessment while
+distinguishing surface/material measurements, internal-activity detection and
+interior imaging. The [enclosure-sensing research](../papers/2026-10-15-enclosure-sensing.md)
+records thermal, structural-acoustic, ultrasonic and RF limits. No panel
+material, transducer or imaging method has been selected. The thermal dongle's
+identity and actual host/data interfaces remain unknown.
 
 Compare capability coverage with the space, power, thermal, RF-interference,
 data-path and integration costs. Count usable observations and operations,

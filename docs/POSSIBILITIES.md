@@ -70,6 +70,7 @@ selection or a claim of performance on the stash.
 | Scalar network analysis | Magnitude response over frequency | Compare useful magnitude-only workflows and potential source/receiver reuse with VNA/RF paths; a separate PCB is not yet required or selected |
 | Basic optical observation | Candidate light-level, modulation/timing or optical-response measurements | Inventory existing optical parts; define spectral range, detector/conditioning, geometry and calibration; a camera alone does not establish an optical power instrument |
 | Basic optical stimulation | Candidate controlled visible/IR illumination, pulses or modulation to test sensors/receivers | Inventory emitters, drivers and fixtures; electrical waveform generation may control an optical driver but is not itself an optical output |
+| Closed-case thermal/acoustic/ultrasonic/RF assessment | Surface-temperature patterns, mechanical response, panel/material observations or motion/channel changes | Thermal dongle reported but unidentified; distinguish each observable from component-scale interior imaging and identify panel/coupling constraints |
 | Amateur-radio context | Possible subjects, sources, receivers, fixtures or accessories for radio experiments | Equipment exists but is unidentified; no bands, modes, calibrated levels, loads or parts are inferred |
 
 The distinction between scalar magnitude and vector magnitude/phase measurement
@@ -219,7 +220,7 @@ objectives, behind RF/EM/debug/firmware breadth and heterogeneous control-system
 access. A camera could support equipment/connector identification, inspection,
 visual records tied to captures and remote support. Close-focus behavior,
 lighting, viewing direction and usable images of boards/labels matter alongside
-pixel count. No camera or sensor suite is selected or assumed owned.
+pixel count. No portable camera or sensor-suite implementation is selected.
 
 Old iPhones are explicitly available as candidate camera/display/input/network
 components. The [iPhone integration note](../papers/2026-10-15-iphone-integration.md)
@@ -229,6 +230,14 @@ requirement. Identified phones are an 11 Pro Max on 17.4.1 and a 14 Pro Max on
 26.6. The latter's documented macro camera and LiDAR add inspection/depth options
 to investigate. Battery condition and actual app/accessory behavior remain
 unknown; no general USB instrument-driver or temperature capability is inferred.
+
+The operator recalls owning a thermal dongle, which is not yet located or
+identified. The [closed-enclosure sensing report](../papers/2026-10-15-enclosure-sensing.md)
+compares thermal surface patterns, contact acoustics, active ultrasound and
+Wi-Fi sensing. It preserves the difference between useful activity/material
+clues and an image of internal components, especially across metal or an air
+gap. Identify the dongle before assigning host compatibility or radiometric
+export capabilities.
 
 Environmental sensing, contact temperature, thermal imaging and internal
 temperature monitoring are distinct capabilities. A sensor's placement and
