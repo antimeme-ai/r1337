@@ -146,3 +146,21 @@ selected build or authorization to operate the radios. The next discussion
 should identify concrete desired uses, available host/display hardware and
 comfortable carrying size before comparing integrated designs. Checked diff
 whitespace; no device operations or source changes.
+
+## Capability breadth and heterogeneous control systems
+
+The operator clarified the primary goal as a capability-dense RF/EM/debug/
+sense/device-firmware access and assessment many-tool. They added a secondary
+focus on interfacing with and managing control systems; the lab contains
+equipment from roughly 25 vendors spanning four decades. Updated the project
+brief, entry point, agent guidance and possibility map. Capability breadth is
+the objective, rather than requiring a narrow initial application; Flipper
+firmware is a candidate component of this broader system. The finished portable
+core and at most one pocket companion remain requirements.
+
+Recorded electrical adaptation, protocol transport, device semantics and
+coordinated operation as distinct design concerns. Persistent lab-side gateways
+are an option to study, not a selected architecture. Model/connector/manual
+identification remains useful input. No new research claim, dependency,
+purchase or device operation was introduced. Checked the document diff and
+whitespace; no code tests were needed.

@@ -8,9 +8,31 @@ The operator initiated `porter_ricks` on 2026-10-15 with two aims:
    with it as an embedded system.
 2. Most probably build a full custom firmware stack.
 
-The device is both our research subject and the eventual deployment target.
-An owned stack is the likely destination. Its scope must be made concrete through
-hardware and source study rather than inferred from the phrase "full custom."
+The operator has since clarified the broader goal: maximize useful capability
+across RF, electromagnetic sensing, debugging, sensing and firmware access and
+assessment of varied devices in a portable, finished instrument. Capability
+breadth is itself a design objective; a narrow application is not a prerequisite
+for exploring the design. Flipper remains a research subject and candidate
+component; it is no longer assumed to be the sole deployment target. Owned
+firmware is a means of enabling the instrument, with its scope still open.
+
+A secondary focus is interfacing with and managing heterogeneous control
+systems. The operator's lab contains equipment from approximately 25 vendors
+spanning four decades. The system should support investigating unfamiliar
+equipment and making understood equipment useful together. Exact models,
+interfaces and supported operations have not yet been identified.
+
+Compare capability coverage with the space, power, thermal, RF-interference,
+data-path and integration costs. Count usable observations and operations,
+including their supported ranges and limits, rather than installed board count.
+
+For control systems, distinguish electrical adaptation, protocol transport,
+device command semantics and coordinated operation. A shared connector or bus
+does not establish interchangeable behavior. Investigate persistent lab-side
+adapters/gateways as an architectural option alongside the portable core;
+multiple external modules carried with the instrument remain outside the
+physical brief. No gateway, protocol stack or management architecture is
+selected.
 
 ## Current discussion
 

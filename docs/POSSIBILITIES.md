@@ -7,6 +7,20 @@ found by the operator from hardware actually inspected by this project.
 
 ## Capabilities emerging from the inventory
 
+The operator's clarified primary objective is maximum useful capability across
+RF, electromagnetic sensing, debugging, sensing and firmware access/assessment
+of varied devices. A secondary objective is interfacing with and managing lab
+control systems from roughly 25 vendors spanning four decades. Breadth is a
+positive design objective within the finished core/one-companion form.
+
+The next synthesis should map each capability's frequency or electrical range,
+direction, timing, capture/export limits, probes, host path and integration
+costs to existing equipment and actual gaps. Controls work additionally needs
+model-specific command meaning, units, operating states and failure behavior;
+electrical/protocol compatibility alone does not establish a working device
+integration. Fixed lab-side gateways are a possibility to investigate, not an
+expansion of the permitted carried module count. No architecture is selected.
+
 | Candidate resource | What it contributes to investigate | Important distinction |
 | --- | --- | --- |
 | Flipper Zero | Battery, physical controls, display, storage, IR/NFC/LF RFID/Sub-GHz and exposed interfaces | Existing physical interfaces and an owned full firmware stack are separate scope choices |

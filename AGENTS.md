@@ -6,11 +6,16 @@ Read [BLACKBIRD.md](BLACKBIRD.md), [README.md](README.md),
 On another checkout, obtain the operator's current shared doctrine beside the
 repository. Archived instructions are historical reference only.
 
-The operator's two aims are exploration of the physical Flipper Zero and,
-most probably, a full custom firmware stack. Preserve that ambition without
-pretending the replacement boundary, language, runtime, or architecture is
-already selected. Establish device facts directly; distinguish hardware
-capability, documented upstream behavior, and behavior observed on this unit.
+The current primary aim is a capability-dense portable RF/electromagnetic,
+debugging, sensing and device-firmware access/assessment instrument. The
+secondary aim is interfacing with and managing heterogeneous control systems:
+the operator's lab has equipment from roughly 25 vendors across four decades.
+Breadth and useful combinations of capabilities are explicit goals; do not
+require selection of a narrow use case before exploring the system. Flipper
+exploration and an owned custom firmware stack remain candidate components.
+Replacement boundaries, language, runtime and architecture are open. Establish
+device facts directly; distinguish hardware capability, documented upstream
+behavior and observations on actual units.
 
 Current operator direction: understand the device and discuss what is possible
 before further device experiments or implementation. The operator has additional
@@ -26,7 +31,7 @@ and the new ESP32 SDR/module/form-factor reports are linked from
 request to connect, flash or enclose the listed equipment.
 
 The operator prefers putting existing equipment to useful work and is open to
-acquiring key components. Start with the stash and actual use cases. Proposed
+acquiring key components. Start with the stash and capability coverage sought. Proposed
 hardware purchases should fill a named capability/interface/power/mechanical
 gap or materially improve use of existing equipment; avoid accumulating more
 boards without a concrete role. Existing parts can be instruments, development

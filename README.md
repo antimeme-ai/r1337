@@ -1,12 +1,14 @@
 # porter_ricks
 
-Explore the Flipper Zero as a complete embedded system, with a likely destination
-of an owned, full custom firmware stack.
+Develop a portable instrument with as much useful RF, electromagnetic,
+debugging, sensing and device-firmware access capability as we can integrate
+into a finished folding tablet or cyberdeck. A secondary focus is interfacing
+with and managing heterogeneous control systems across vendors and generations.
 
-The starting point is a physical device connected to a Mac over USB-C. The first
-job is to understand the hardware, installed software, interfaces, and recovery
-paths. That exploration will inform what we build, how far down the stack we
-replace existing software, and which experiments give us useful answers first.
+The starting point was a Flipper Zero connected to a Mac over USB-C. The growing
+hardware collection now informs a broader instrument. Flipper exploration and
+an owned custom firmware stack remain possible parts of that system; their
+roles will follow from research and design.
 
 **Status:** read-only device inventory and parallel hardware, firmware, and
 recovery research. The unit reports dev firmware 0.81.1 from 2023, hardware code
