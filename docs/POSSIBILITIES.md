@@ -54,6 +54,44 @@ The BP5 already has its own color electrical-status display, so Flipper need
 not automatically own every user interaction. The Nighthawk can be useful as
 an intact network appliance independently of any battery-reuse proposal.
 
+## Instrument coverage sought
+
+The operator wants scope and function-generator capability, expects the
+SLogic32U3 logic analyzer, and is interested in VNA/SNA and basic optical test
+and stimulation. This is a capability map for further design, not a component
+selection or a claim of performance on the stash.
+
+| Function | Observation or stimulus | Existing resource and open boundary |
+| --- | --- | --- |
+| Oscilloscope | Voltage versus time, including transients and analog signal shape | AD3 can support bench development but is excluded from the portable build; choose analog frontend, bandwidth/rate, channels, ranges, triggering and probes |
+| Function/arbitrary waveform generation | Controlled electrical excitation and modulation | AD3 is a bench counterpart; define output bandwidth, amplitude/offset, drive/load, waveform modes and synchronization for the portable implementation |
+| Logic analysis | Digital timing, transitions and protocol decoding | SLogic32U3 is expected future equipment; verify delivered host path/accessories and integration; optional ADC is not presumed owned or the scope solution |
+| Vector network analysis | Complex reflection/transmission over frequency for antennas, filters, matching and cables | VNA PCB making interests the operator; ranges, architecture, calibration kit/fixtures and quality targets remain open |
+| Scalar network analysis | Magnitude response over frequency | Compare useful magnitude-only workflows and potential source/receiver reuse with VNA/RF paths; a separate PCB is not yet required or selected |
+| Basic optical observation | Candidate light-level, modulation/timing or optical-response measurements | Inventory existing optical parts; define spectral range, detector/conditioning, geometry and calibration; a camera alone does not establish an optical power instrument |
+| Basic optical stimulation | Candidate controlled visible/IR illumination, pulses or modulation to test sensors/receivers | Inventory emitters, drivers and fixtures; electrical waveform generation may control an optical driver but is not itself an optical output |
+| Amateur-radio context | Possible subjects, sources, receivers, fixtures or accessories for radio experiments | Equipment exists but is unidentified; no bands, modes, calibrated levels, loads or parts are inferred |
+
+The distinction between scalar magnitude and vector magnitude/phase measurement
+is grounded in [Keysight's network-analysis overview](https://www.keysight.com/us/en/learn/hubs/measurement-fundamentals/network-analysis.html).
+Sharing source/receiver infrastructure is a design possibility, dependent on
+actual ranges, switching, reference paths and calibration; the names do not
+establish that every mode can operate simultaneously.
+
+The operator's **Analog Discovery 3 remains on the bench**. Its documented
+scope, waveform and digital functions can support development comparisons
+within their actual capabilities; it is not assigned as an installed module or
+claimed to be a traceable calibration standard. Read the
+[manufacturer's guide](https://files.digilent.com/manuals/WaveForms/3.24.4/start10.html)
+when planning any bench use. No AD3 or ham equipment was operated in this pass.
+
+For optical work, intensity/timing, imaging, spectroscopy and thermal imaging
+are distinct. The current request is basic optical testing/stimulation; none of
+the more specialized instruments is presumed necessary. A useful joint study
+could drive an optical emitter, observe a detector/controller response and
+retain its electrical trace alongside inspection imagery. That is a proposed
+workflow, not a reproduced result or selected design.
+
 ## The ESP32 SDR opening
 
 The current ESP-SDR work exposes raw complex receiver samples from an

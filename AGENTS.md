@@ -61,6 +61,11 @@ fixtures, controlled counterparts or subjects to study without all belonging in
 the final portable assembly. No hardware purchase is selected by the current
 discussion.
 
+The operator requests scope/function-generator capability, expects the SLogic32U3 logic
+analyzer, and is interested in VNA/SNA and basic optical test/stimulation.
+The owned Analog Discovery 3 stays outside the box as bench equipment. Ham-radio
+equipment is available but unidentified; do not assign it bands or capabilities.
+
 Physical direction for the first version is now a polished, man-portable field
 service monitor inspired by the General Dynamics R8000. The operator explicitly
 chooses this over pursuing a thin cyberdeck/folding tablet: useful mass/volume

@@ -17,6 +17,8 @@ or connected by this project. Exact variants remain open where indicated.
 | Xilo flight controller | Operator found board | Exact model, MCU, sensors, connectors and documentation |
 | Bus Pirate 5, working identification | Found with marking described as “genuine bus 5 5 pirate” | Exact board revision, firmware and probe accessories |
 | Sipeed SLogic32U3 — expected future equipment | Operator backed it and expects a compact logic analyzer in the medium term; not yet in hand | Delivered revision, accessories, actual dimensions, firmware, host compatibility and measured performance |
+| Digilent Analog Discovery 3 — bench equipment | Operator owns it and explicitly excludes it from the portable box | Available probes/accessories, software/firmware and present configuration; useful bench reference within its capabilities |
+| Amateur-radio equipment | Operator reports ham-radio equipment available if relevant | Models, bands, modes, instruments, antennas, loads, adapters and possible bench/field roles |
 | NETGEAR Nighthawk M6 MR6150 | Operator reports unlocked unit | Regional SKU, firmware, available cables/antennas and actual power behavior |
 | Nighthawk battery | Operator reports flat pack marked 3.85 V, 19.4 Wh | Part number, dimensions, chemistry/charge specification, connector and protection/interface details |
 | WiFi Pineapple Mark VII | Operator identified model | Revision, firmware and present configuration |

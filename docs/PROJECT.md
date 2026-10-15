@@ -55,6 +55,14 @@ study. Fabricating an existing reference board versus developing our own
 design, frequency range, measurement quality, calibration and system role
 remain open; no board implementation or procurement is selected.
 
+The operator also wants oscilloscope and function-generator capabilities, the
+expected logic analyzer, VNA/SNA, and possibly basic optical testing and
+stimulation. Their Analog Discovery 3 is bench equipment and explicitly must
+not be incorporated into this box. Additional ham-radio equipment is available
+if relevant, with models and capabilities still unknown. The
+[capability discussion](POSSIBILITIES.md#instrument-coverage-sought) distinguishes
+the requested functions from existing hardware and missing design decisions.
+
 Compare capability coverage with the space, power, thermal, RF-interference,
 data-path and integration costs. Count usable observations and operations,
 including their supported ranges and limits, rather than installed board count.
