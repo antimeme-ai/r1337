@@ -15,8 +15,12 @@ capability, documented upstream behavior, and behavior observed on this unit.
 Follow the doctrine's research, design, plan, implementation, and review process.
 Before a firmware experiment, understand the affected flash/storage regions and
 the recovery path. Record exact source revisions and tool versions for builds.
-The current bootstrap has performed USB enumeration only; the running firmware,
-board revision, storage contents, and recovery behavior are still unknown.
+The first reconnaissance established a read-only CLI inventory: reported dev
+0.81.1 / 1af02211 firmware, hardware code 12, CPU2 FUS 1.2.0 and radio stack
+1.13.3. Read `docs/DEVICE.md` and the 2026-10-15 reports in `papers/` before
+device work. Physical recovery, peripheral health, and exact binary provenance
+remain untested. Current upstream behavior must not substitute for this older
+installed source reference.
 
 Own required machinery. Discuss proposed library adoption with the operator
 before adopting it, including concrete benefits, fit, costs, and tradeoffs.

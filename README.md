@@ -8,17 +8,20 @@ job is to understand the hardware, installed software, interfaces, and recovery
 paths. That exploration will inform what we build, how far down the stack we
 replace existing software, and which experiments give us useful answers first.
 
-**Status:** project foundation and initial USB observation. No firmware has been
-built or flashed. Language, runtime, dependencies, and replacement boundaries
-remain open.
+**Status:** read-only device inventory and parallel hardware, firmware, and
+recovery research. The unit reports dev firmware 0.81.1 from 2023, hardware code
+12, and working internal/microSD filesystems. No firmware has been built or
+flashed. Language, runtime, dependencies, and replacement boundaries remain open.
 
 ## Start here
 
 - [Project brief and exploration sequence](docs/PROJECT.md)
-- [Initial device observations](docs/DEVICE.md)
+- [Device inventory and repeatable collector](docs/DEVICE.md)
+- [First reconnaissance: findings and next experiments](docs/RECONNAISSANCE.md)
 - [Primary sources and open research questions](papers/README.md)
 - [Issue index](ISSUES.md) and [GitHub issues](https://github.com/antimeme-ai/porter_ricks/issues)
 - [Project journal](journal/2026-10-15-bootstrap.md)
+- [Reconnaissance journal](journal/2026-10-15-reconnaissance.md)
 - [Working instructions](AGENTS.md) and [quarantine manifest](QUARANTINE.md)
 
 ## Working regime
