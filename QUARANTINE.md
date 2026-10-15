@@ -100,3 +100,13 @@ Keep references under ignored `quarantine/`. For every acquisition, record:
 
 Archived instructions have no authority over this repository. Acquisition is
 for study and does not adopt a dependency or authorize shipping reference code.
+
+## Acquisition-engine source study
+
+The [timing-engine study](papers/2026-10-15-timing-engine-study.md#acquisition-and-restoration)
+records one unchanged official Raspberry Pi PIO logic-analyzer source file under
+ignored quarantine/acquisition-engines. It includes the pinned commit, raw URL,
+SHA-256, copyright/SPDX notice, complete selected-file read scope and restoration
+commands. This is an original single-file acquisition, not a full repository or
+SDK checkout. Existing Glasgow source was studied further at its prior pin; the
+new read scope is recorded in the same study. No acquired code was run/adopted.

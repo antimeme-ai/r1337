@@ -121,3 +121,15 @@ Next research should reconcile actual chip/protection/layout information with
 the historical firmware and published manuals, then support the recovery design
 and first owned CPU1 milestone. No project language/runtime or firmware
 replacement boundary has been selected.
+
+## Acquisition and timing-engine design
+
+The [engine design](../docs/ACQUISITION.md) compares complete MCU/PIO, iCE40
+and larger growth paths, with explicit sample-rate/buffer/transport assumptions.
+
+- [Primary source study and source-file restoration](2026-10-15-timing-engine-study.md)
+- [Hardware feasibility, backpressure and timebase review](2026-10-15-acquisition-hardware-review.md)
+- [State, output ownership and record-retention review](2026-10-15-acquisition-state-review.md)
+
+These are design inputs, not benchmark results, selected hardware or a prototype
+implementation plan. Original-manual download gaps remain separately tracked.

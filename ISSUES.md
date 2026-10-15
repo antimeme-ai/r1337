@@ -10,7 +10,7 @@ opening, closing, or materially changing an issue.
 | [#3](https://github.com/antimeme-ai/r1337/issues/3) | Research portable instrument hardware, firmware, and integration boundaries | Open: initial, weird-device, aftermarket and unusual-interface passes assembled | Research index, capability discussion, pinned reference corpus; manual/schematic gaps remain |
 | [#4](https://github.com/antimeme-ai/r1337/issues/4) | Design the first useful custom firmware milestone | Open | #1, #2, #3 |
 | [#6](https://github.com/antimeme-ai/r1337/issues/6) | Resurrect TMTSOYP as a core application | Deferred to software-loadout discussion | Operator requirement; locate and understand prior project before design |
-| [#7](https://github.com/antimeme-ai/r1337/issues/7) | Develop and review the service-monitor system design | Open: first proposal reviewed; detailed requirements/block design next | Architecture, capability matrix, three review reports; actual host/interfaces and measurement targets remain open |
+| [#7](https://github.com/antimeme-ai/r1337/issues/7) | Develop and review the service-monitor system design | Open: first architecture and acquisition-engine comparison reviewed; detailed frontends/host/mechanics remain | Architecture, capability matrix, acquisition design and review reports; actual host/interfaces and measurement targets remain open |
 
 The [first reconnaissance](docs/RECONNAISSANCE.md) records the current findings
 and proposed next conceptual units. Current operator direction puts device
@@ -31,3 +31,8 @@ The [aftermarket/unusual-interface synthesis](papers/2026-10-15-aftermarket-and-
 adds #3 inputs for #7: explicit frontend/fixture gaps, UHF/contact-card roles,
 overlooked physical/temporal channels and checked protocol-tool references.
 No new hardware or software dependency was selected.
+
+The [acquisition/interface design](docs/ACQUISITION.md) advances #7 with MCU/PIO
+and small-FPGA path comparisons and reviewed readiness/output/buffer/timing
+contracts. Provisional D1/D2 workloads guide the next pin/memory/transport budget;
+higher-rate comparison cases expose open frontend and transport needs.

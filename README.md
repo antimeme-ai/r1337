@@ -35,6 +35,7 @@ remain open; further device experiments and implementation follow detailed desig
 
 - [Project brief and exploration sequence](docs/PROJECT.md)
 - [First system architecture](docs/ARCHITECTURE.md) and [capability matrix](docs/CAPABILITIES.md)
+- [Acquisition/interface engine comparison and behavior](docs/ACQUISITION.md)
 - [Device inventory and repeatable collector](docs/DEVICE.md)
 - [First reconnaissance: findings and next experiments](docs/RECONNAISSANCE.md)
 - [Portable instrument possibilities](docs/POSSIBILITIES.md)

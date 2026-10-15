@@ -29,6 +29,11 @@ coverage is not yet established, not that a purchase is necessary.
 | Voice field notes | Tactile capture control, microphone and local host are proposed | Local original audio and session association; remote transcription can follow | Handling/fan noise, feedback, occupied-hand use, storage failure and clock relation to captures |
 | Remote support and records | Tailnet host plus remote reference/analysis services are proposed | Bounded original captures/images/text with resumable transfer; no remote timing dependency | Actual service interfaces remain uninspected for this instrument; retain sources/uncertainty and reconcile unknown action outcomes |
 
+The [acquisition/interface design](ACQUISITION.md) compares MCU/PIO, iCE40 and
+complete memory/host paths using explicit provisional workloads. It defines
+readiness, output ownership, timing-gap reporting and capture retention across
+reset/reuse; these requirements apply to candidate engines across this matrix.
+
 ## How to compare candidates
 
 For each candidate, fill measured or documented ranges and their conditions,

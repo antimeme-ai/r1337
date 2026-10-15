@@ -44,3 +44,14 @@ The [interface manifest](papers/2026-10-15-interface-aftermarket-acquisitions.md
 also records ADI/NXP original-download gaps; primary text was readable, so those
 become acquisition priorities only if their circuits enter detailed design.
 None blocks the present survey or requires a purchase.
+
+## Timing-engine design sources
+
+| Priority | Source needed | Concrete reason | Current gap |
+| --- | --- | --- | --- |
+| Before RP2040 register-level design | Original RP2040 datasheet | Preserve FIFO/stall/divider/DMA details beside the engine design | Both current pip-assets and legacy original URLs returned HTTP403 on direct download; selected primary text was readable on web |
+| Before iCE40 implementation | Original UltraPlus datasheet and revision-matched candidate board schematics | Pin/bank, memory-port, clock, configuration/reset and actual transport design | Attempted versioned/canonical Lattice PDF targets returned HTTP404; resource table and maker pages read, full original not retained; old iCEBreaker hardware documentation must not substitute for V1.1b |
+
+Exact attempted sources and the original-source acquisition are recorded in the
+[timing-engine study](papers/2026-10-15-timing-engine-study.md). These gaps do not
+block the current comparison or select a board/toolchain.

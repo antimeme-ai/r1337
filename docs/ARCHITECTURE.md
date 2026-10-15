@@ -6,6 +6,11 @@ electrical/mechanical specification or authorization to operate equipment.
 The operator has selected the service-monitor form and the capability goals;
 component assignments below are engineering proposals.
 
+The [acquisition/interface design](ACQUISITION.md) develops the local-engine
+boundary: MCU/PIO versus small FPGA, sample/buffer/transport budgets, output
+ownership, timing continuity and capture retention. Its comparison workloads
+are provisional engineering cases, not finished-instrument specifications.
+
 ## What the instrument does
 
 r1337 helps an operator identify unfamiliar equipment, observe its physical
